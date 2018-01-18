@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-01-17 15:30:17 +0000
-categories: jekyll update
+title:  "Luke’s Boosted VR6 Swapped Golf"
+description: "A closer look at this awesome 3 door Golf"
+date:   2018-01-15 15:30:17 +0000
+image: images/first@2x.jpg
+categories: projects
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

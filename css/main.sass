@@ -1,16 +1,142 @@
 ---
 ---
+$color-text-main: #000000
+
+$font-fam-titles: "Oswald", sans-serif
+$font-fam-body: "Roboto", sans-serif
+
 *
   margin: 0
   padding: 0
+  list-style: none
 
 body
-  background: #000
+  font-family: "Roboto", sans-serif
+  color: $color-text-main
 
 
 .wrapper
   width: 100%
-  height: 100vh
+
+.container
+  width: 100%
+  max-width: 1200px
+  margin: auto
+
+h2
+  font-family: $font-fam-titles
+  font-size: 52px
+  line-height: 52px
+  letter-spacing: 0.53px
+
+h3
+  text-transform: uppercase
+  font-family: $font-fam-titles
+  font-size: 24px
+  line-height: 32px
+  letter-spacing: 0.81px
+
+p
+  font-family: $font-fam-body
+  font-size: 16px
+  line-height: 26px
+  letter-spacing: 0.24px
+  opacity: 0.95
+
+.body-small
+  font-size: 14px
+  line-height: 20px
+  letter-spacing: 0.27px
+
+.body-large
+  font-size: 18px
+  line-height: 28px
+  letter-spacing: 0.73px
+
+a
+  text-decoration: none
+  color: $color-text-main
+
+  &.post-category
+    text-transform: uppercase
+    font-family: $font-fam-titles
+    font-size: 12px
+    letter-spacing: 1px
+    opacity: .7
+    font-weight: 500
+
+    &::before
+      content: "#"
+
+
+header
+  width: 100%
+  padding: 68px 0
+  background: #000
+
+  &.header-home
+    height: 252px
+    padding: 68px 0 0 0
+
+  .container
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+  nav ul
+    display: flex
+
+    li:not(:last-child)
+      margin-right: 60px
+
+    li.current a
+      position: relative
+
+      &::after
+        content: ""
+        display: block
+        position: absolute
+        left: -2px
+        width: calc(100% + 4px)
+        height: 2px
+        background: #FFF
+        margin-top: 4px
+
+    li a
+      color: #FFF
+      text-transform: uppercase
+      font-family: $font-fam-titles
+      font-size: 12px
+      letter-spacing: 0.86px
+
+  ul.social
+    display: flex
+
+    li:not(:last-child)
+      margin-right: 50px
+
+
+// POSTS ===================
+.featured-post
   display: flex
   align-items: center
-  justify-content: center
+  margin-top: -80px
+  background: #FFF
+
+  &-info
+    margin-left: 80px
+
+  img
+    max-width: 584px
+
+  .post-date
+    opacity: .4
+
+  h2
+    margin: 10px 0
+
+  .post-excerpt
+    margin-top: 30px
+
+.posts-list
+  margin: 100px 0

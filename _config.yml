@@ -25,6 +25,7 @@ twitter_username: jekyllrb
 github_username:  mk2swag
 
 # Build settings
+permalink: /:title.html
 markdown: kramdown
 theme: minima
 gems:
