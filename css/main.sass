@@ -21,7 +21,9 @@ body
 
 .container
   width: 100%
-  max-width: 1200px
+  max-width: 1240px
+  padding: 0 20px
+  box-sizing: border-box
   margin: auto
 
 .container-small
@@ -34,6 +36,11 @@ h2
   font-size: 52px
   line-height: 52px
   letter-spacing: 0.53px
+
+  @media (max-width: 1004px)
+    font-size: 40px
+    line-height: 44px
+    letter-spacing: -0.16px
 
 h3
   font-family: $font-fam-titles
@@ -146,10 +153,16 @@ header
   background: #FFF
 
   &-info
-    margin-left: 80px
+    padding: 0 80px
 
-  img
+  .featured-post-image
+    display: block
+    width: 100%
     max-width: 584px
+
+    img
+      width: 100%
+      max-width: 584px
 
   h2
     margin: 10px 0
@@ -157,6 +170,45 @@ header
 
   .post-excerpt
     margin-top: 30px
+
+  @media (max-width: 1240px)
+    .featured-post-image
+      width: 50%
+      max-width: none
+
+      img
+        max-width: none
+
+    .featured-post-info
+      width: 50%
+      padding: 0 55px
+      box-sizing: border-box
+
+      p
+        font-size: 16px
+        letter-spacing: 0.34px
+
+      .post-excerpt
+        margin-top: 16px
+        line-height: 24px
+
+  @media (max-width: 760px)
+    flex-direction: column
+    background: none
+
+    .featured-post-image
+      width: 100%
+      max-width: 584px
+
+    .featured-post-info
+      width: 100%
+      max-width: 584px
+      padding: 20px
+      text-align: center
+
+      h2
+        max-width: none
+        margin: 14px 0 10px 0
 
 .posts-list
   margin: 80px 0
@@ -170,13 +222,26 @@ header
     justify-content: space-between
     flex-wrap: wrap
 
+    @media (max-width: 1004px)
+      justify-content: center
+
     li img,
     .post-info
       text-align: center
       max-width: 482px
 
     li
+      width: 100%
+      max-width: 482px
       margin-bottom: 100px
+
+      .post-image
+        display: block
+        width: 100%
+
+        img
+          width: 100%
+
 
   .post-info
     padding: 20px 20px 0px 20px

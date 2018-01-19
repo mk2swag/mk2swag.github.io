@@ -24,7 +24,7 @@ layout: default
       {% if site.posts.size > 0 %}
         {% for post in site.posts limit:1 %}
           <div class="featured-post">
-            <a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt=""></a>
+            <a href="{{ post.url | relative_url }}" class="featured-post-image"><img src="{{ post.image }}" alt=""></a>
             {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
 
             <div class="featured-post-info">
@@ -37,7 +37,7 @@ layout: default
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
               </h2>
 
-              <p class="body-small post-date">{{ post.date | date: date_format}}</p>
+              <!-- <p class="body-small post-date">{{ post.date | date: date_format}}</p> -->
 
               <p class="body-large post-excerpt">{{ post.description }}</p>
             </div>
@@ -50,7 +50,7 @@ layout: default
             <ul>
               {% for post in site.posts offset:1 %}
                 <li>
-                  <a href="{{ post.url | relative_url }}">
+                  <a href="{{ post.url | relative_url }}" class="post-image">
                     <img src="{{ post.image }}" alt="">
                   </a>
                   {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
