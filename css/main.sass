@@ -188,6 +188,16 @@ header
     nav ul li
       text-align: center
 
+      &.current a::after
+        content: ""
+        display: block
+        position: absolute
+        left: -2px
+        width: calc(100% + 4px)
+        height: 3px
+        background: #FFF
+        margin-top: 4px
+
       &:not(:last-child)
         margin-bottom: 50px
 
@@ -197,13 +207,14 @@ header
         letter-spacing: -0.16px
         text-transform: uppercase
         color: #FFF
+        position: relative
 
   .mobile-nav-trigger
     width: 16px
     height: 16px
     background-image: url(/images/menu.svg)
     position: absolute
-    left: 30px
+    right: 30px
     top: 60px
     cursor: pointer
     z-index: 1000
@@ -223,6 +234,14 @@ header
 
     .mobile-nav-trigger
       transform: rotateZ(45deg)
+
+  .social
+    display: flex
+    position: absolute
+    bottom: 100px
+
+    li:first-child
+      margin-right: 50px
 
 
 // POSTS ===================
