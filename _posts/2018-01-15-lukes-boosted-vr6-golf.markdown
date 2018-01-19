@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Adam's GTI"
+title:  "Luke’s Boosted VR6 Golf"
 description: "A closer look at this awesome 3 door Golf"
-date:   2018-01-14 15:30:17 +0000
-image: images/second.jpg
+permalink: "lukes-boosted-vr6-swapped-golf"
+date:   2018-01-15 15:30:17 +0000
+image: "/images/first@2x.jpg"
 categories: projects
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

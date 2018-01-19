@@ -24,12 +24,20 @@ layout: default
       {% if site.posts.size > 0 %}
         {% for post in site.posts limit:1 %}
           <div class="featured-post">
-            <a href="{{ post.url }}"><img src="{{ post.image }}" alt=""></a>
+            <a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt=""></a>
+            {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
 
             <div class="featured-post-info">
-              <p class="body-small post-date">{{ post.date | date_to_long_string}}</p>
-              <h2>{{ post.title }}</h2>
-              <a href="#" class="post-category">{{ post.categories limit:1 }}</a>
+
+              {% for category in post.categories %}
+                <a href="#" class="post-category">{{ category }}</a>
+              {% endfor %}
+
+              <h2 class="post-title">
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              </h2>
+
+              <p class="body-small post-date">{{ post.date | date: date_format}}</p>
 
               <p class="body-large post-excerpt">{{ post.description }}</p>
             </div>
@@ -37,20 +45,31 @@ layout: default
         {% endfor %}
 
         <div class="posts-list">
-          <h3>More Posts</h3>
-          <ul>
-            {% for post in site.posts offset:1 %}
-              <li>
-                <img src="{{ post.image }}" alt="">
-                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <div class="container-small">
+            <h4>More Posts</h4>
+            <ul>
+              {% for post in site.posts offset:1 %}
+                <li>
+                  <a href="{{ post.url | relative_url }}">
+                    <img src="{{ post.image }}" alt="">
+                  </a>
+                  {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
 
-                <h3>
-                  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                </h3>
-              </li>
-            {% endfor %}
-          </ul>
+                  <div class="post-info">
+                    {% for category in post.categories %}
+                      <a href="#" class="post-category">{{ category }}</a>
+                    {% endfor %}
+
+                    <h3 class="post-title">
+                      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                    </h3>
+
+                    <p class="body-small post-date">{{ post.date | date: date_format }}</p>
+                  </div>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
       {% endif %}
     </div>
