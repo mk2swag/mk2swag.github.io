@@ -28,8 +28,21 @@ body
 
 .container-small
   width: 100%
-  max-width: 996px
+  padding: 0 20px
+  max-width: 1036px
+  box-sizing: border-box
   margin: auto
+
+.container-article
+  width: 100%
+  max-width: 586px
+  margin: auto
+
+h1
+  font-family: $font-fam-titles
+  font-size: 70px
+  line-height: 68px
+  letter-spacing: -1.23px
 
 h2
   font-family: $font-fam-titles
@@ -93,8 +106,13 @@ a
 
 header
   width: 100%
-  height: 240px
+  height: 210px
   background: #000
+
+  nav,
+  .logo-container,
+  .social
+    width: 100%
 
   @media (max-width: 760px)
     display: none
@@ -106,7 +124,7 @@ header
     height: 80px
     background: #000
     position: absolute
-    top: 240px
+    top: 210px
     left: 0
     z-index: -1
 
@@ -142,8 +160,12 @@ header
       font-size: 12px
       letter-spacing: 0.86px
 
+  .logo-container
+    text-align: center
+
   ul.social
     display: flex
+    justify-content: flex-end
 
     li:not(:last-child)
       margin-right: 50px
@@ -357,3 +379,38 @@ header
 
     .post-date
       display: none
+
+
+// ARTICLE ================
+.post-content
+  display: flex
+  flex-direction: column
+  align-items: center
+
+article
+  margin: 140px 0
+
+  h1,
+  h4,
+  p,
+  a
+    width: 100%
+    max-width: 586px
+
+  h1
+    margin: 12px 0 60px 0
+
+  h4
+    margin-top: 120px
+    margin-bottom: 20px
+
+  figure
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin: 80px 0 70px 0
+
+    img
+      height: 348px
+      object-fit: cover

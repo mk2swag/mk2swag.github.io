@@ -7,21 +7,47 @@ date:   2018-01-15 15:30:17 +0000
 image: "/images/first@2x.jpg"
 categories: projects
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+{% for category in page.categories %}
+  <a href="#" class="post-category">{{ category }}</a>
+{% endfor %}
 
-Jekyll also offers powerful support for code snippets:
+# {{ page.title }}
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+<p class="body-large">{{ page.description }}</p>
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+<figure>
+  <img src="/images/first@2x.jpg" srcset="/images/first@2x.jpg 1x, /images/first@2x.jpg 2x" width="484">
+  <img src="/images/first@2x.jpg" srcset="/images/first@2x.jpg 1x, /images/first@2x.jpg 2x" width="484">
+</figure>
+
+Let’s start by talking a bit about you! Your name, and from where you are. What’s your story with this car? How did you got it? Was it modified by you? Was it backyard build with your buddies? How did you decided on what to do with it?
+
+
+#### Exterior Mods
+Maybe review a few details and some aesthetic decisions like the red stripe across the car and the smoked side markers. It would also be awesome to talk about what wheels and tires are you running and its dimensions.
+<figure>
+  <img src="/images/first@2x.jpg" srcset="/images/first@2x.jpg 1x, /images/first@2x.jpg 2x" width="584">
+  <img src="/images/first@2x.jpg" srcset="/images/first@2x.jpg 1x, /images/first@2x.jpg 2x" width="382">
+</figure>
+
+#### Mechanical Mods
+What engine does it have? What was the original engine and why did you decided to do the swap? Is it stock? If it’s not stock, what parts have you installed? How many power and torque are you making? What transmission are you using? And what suspension system is installed?
+<figure>
+  <img src="/images/first@2x.jpg" srcset="/images/first@2x.jpg 1x, /images/first@2x.jpg 2x" width="382">
+  <img src="/images/first@2x.jpg" srcset="/images/first@2x.jpg 1x, /images/first@2x.jpg 2x" width="584">
+</figure>
+Did you had any challenges? And how did you overcame them? Is there anything you would have done differently? If yes, what would that be?
+
+#### Interior Mods
+Hows the interior like? Did you used original parts or you adapted parts from other cars/models? What seats, steering and wheel have you installed? What about the safety belts and the roll cage?
+<figure>
+  <img src="/images/first@2x.jpg" srcset="/images/first@2x.jpg 1x, /images/first@2x.jpg 2x" width="584">
+  <img src="/images/first@2x.jpg" srcset="/images/first@2x.jpg 1x, /images/first@2x.jpg 2x" width="382">
+</figure>
+To finish we could talk about what your plans are for the car. Are you going to sell it? Completely change how it looks? Maybe you consider the build to be completely done?
+<br/>What do you think you could have done better? Any tips or advice for the ones that might be considering doing something like what you did?
+
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
