@@ -10,6 +10,7 @@ $font-fam-body: "Roboto", sans-serif
   margin: 0
   padding: 0
   list-style: none
+  -webkit-font-smoothing: antialiased
 
 body
   font-family: "Roboto", sans-serif
@@ -92,10 +93,12 @@ a
   &.post-category
     text-transform: uppercase
     font-family: $font-fam-body
-    font-size: 11px
-    letter-spacing: 1.28px
-    opacity: .8
+    font-size: 10px
+    letter-spacing: 1.17px
     font-weight: 500
+    color: #FFF
+    background: black
+    padding: 4px 6px
 
     &::before
       content: "#"
@@ -159,6 +162,7 @@ header
       font-family: $font-fam-titles
       font-size: 12px
       letter-spacing: 0.86px
+      font-weight: 600
 
   .logo-container
     text-align: center
@@ -398,7 +402,7 @@ article
     max-width: 586px
 
   h1
-    margin: 12px 0 60px 0
+    margin: 30px 0 60px 0
 
   h4
     margin-top: 120px
@@ -414,3 +418,26 @@ article
     img
       height: 348px
       object-fit: cover
+
+
+  .article-share
+    width: 100%
+    max-width: 586px
+    height: 120px
+    margin-top: 120px
+    border-top: 1px solid #EFEFEF
+    display: flex
+    align-items: center
+    justify-content: center
+
+    p
+      max-width: 40px
+      margin-top: -8px
+
+    ul
+      display: flex
+      margin-left: 50px
+
+      li:first-child
+        margin-right: 30px
+        margin-top: 1px
