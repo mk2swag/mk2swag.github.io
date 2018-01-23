@@ -344,6 +344,10 @@ header
 .posts-list
   margin: 80px 0
 
+  .container-small
+    padding: 0
+    max-width: 996px
+
   h4
     margin-bottom: 80px
     text-align: center
@@ -375,6 +379,9 @@ header
           height: 320px
           object-fit: cover
 
+    @media (max-width: 520px)
+      li img
+        height: 280px !important
 
   .post-info
     padding: 20px 20px 0px 20px
