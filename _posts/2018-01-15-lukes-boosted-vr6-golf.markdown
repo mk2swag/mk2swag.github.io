@@ -18,37 +18,69 @@ categories: projects
 
 <figure>
   <img src="/images/posts/lukes-boosted-vr6-golf/1.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/1.jpg 1x, /images/posts/lukes-boosted-vr6-golf/1@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
-  <img src="/images/posts/lukes-boosted-vr6-golf/2.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/2.jpg 1x, /images/posts/lukes-boosted-vr6-golf/2@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
 </figure>
 
-Let’s start by talking a bit about you! Your name, and from where you are. What’s your story with this car? How did you got it? Was it modified by you? Was it backyard build with your buddies? How did you decided on what to do with it?
-
+I’m Luke Rocknak and I’m from Milford, NH. My car is a 1988 Volkswagen Gti VRT aka Gwen.
+<br/><br/>
+It had started with me basically stalking this car on vwvortex back in September/October of 2012. I've always wanted a black 3 door Mk2 with big bumpers, I love the boxy body style. I ended up going down to Amesbury, MA in the beginning of December of 2012 to finally buy it. It was all original with a 16v motor and some extra parts. Ran like a top when I picked it up and stayed that way for 2 years then I wanted to start doing some motor modifications in December of 2014.
+<br/><br/>
+I do what I can in my driveway/garage and whatever I can't do I bring it to [DTM Autowerks](http://dtmautowerks.com) in Milford. I've always gone to them since I got my license in 2009 because of the amazing work they do.
 
 #### Exterior Mods
-Maybe review a few details and some aesthetic decisions like the red stripe across the car and the smoked side markers. It would also be awesome to talk about what wheels and tires are you running and its dimensions.
-<figure>
+
+Since its a black car I thought red would be a nice touch to it. Just small details with red because I didn't want to take away from the black.
+
+<figure class="pair">
+  <img src="/images/posts/lukes-boosted-vr6-golf/2.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/2.jpg 1x, /images/posts/lukes-boosted-vr6-golf/2@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
+
   <img src="/images/posts/lukes-boosted-vr6-golf/3.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/3.jpg 1x, /images/posts/lukes-boosted-vr6-golf/3@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
+</figure>
+
+The red stripe was actually a spur of the moment thing I did in my garage at 11pm with my buddy Nate with some 3M tape I got. I had it all black for a while and I really liked it but I wanted to try something new and I ended up loving it.
+<br/><br/>
+And as for the lights I wanted to smoke everything out to match with the car. So I had gotten some smoked cross-hairs for up front and some all black Hella taillights with the smoked markers around.
+
+<figure>
   <img src="/images/posts/lukes-boosted-vr6-golf/4.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/4.jpg 1x, /images/posts/lukes-boosted-vr6-golf/4@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
 </figure>
+The wheels I'm currently running are Rotiform IDKs reps from JNC 15x8 ET +20 and the tires are 195/50R15s. I really liked the way they looked so I just took the leap and got them. I'm not one of those people who bitches about running real or fake wheels, to me if they look cool then you should send it.
 
-#### Mechanical Mods
-What engine does it have? What was the original engine and why did you decided to do the swap? Is it stock? If it’s not stock, what parts have you installed? How many power and torque are you making? What transmission are you using? And what suspension system is installed?
+#### The Engine
+When I had gotten the car it had an original 16v motor and trans. Ran perfectly fine but I really loved VR6s, so I went with that. I brought my car to [DTM](http://dtmautowerks.com) in late December of 2014 to do all the work. We had gotten the motor/trans from a 1996 Jetta and then the fun began.
+
 <figure>
   <img src="/images/posts/lukes-boosted-vr6-golf/5.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/5.jpg 1x, /images/posts/lukes-boosted-vr6-golf/5@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
+</figure>
+
+Sent the head out and had it ran through and then put a c2 chip and 262 cams in it. Went with a 2 1/2 straight pipe to a borla exhaust, not too loud but still enough to make some heads turn. Re-sprayed the engine bay a dark grey to color match a set of BBS RMs I have.
+<br/><br/>
+Had a blast with that setup, but I wanted more power. Two years later in March of 2017 the turbo build began. 42 lb injectors, headspacer 8:1, APR head studs, 262 cams, C2 chip, Peloquin diff, stage 4 clutch, GTX3582R turbo, hydraulic clutch, custom turbo piping, coolant pipes and brake fluid reservoir, and a few red touches in the engine bay to carry the theme.
+
+<figure>
   <img src="/images/posts/lukes-boosted-vr6-golf/6.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/6.jpg 1x, /images/posts/lukes-boosted-vr6-golf/6@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
 </figure>
-Did you had any challenges? And how did you overcame them? Is there anything you would have done differently? If yes, what would that be?
 
-#### Interior Mods
-Hows the interior like? Did you used original parts or you adapted parts from other cars/models? What seats, steering and wheel have you installed? What about the safety belts and the roll cage?
+Not sure what its making because we haven't put it on the dyno yet, but the hp should be around the high 300s. Its pushing 13 lbs of boost right now and thats only half boost. The suspension I'm running is the basic Raceland reds.
+
+#### Interiors
+As for the interior, I loved the original seats but I had to change them to make it a little safer for the turbo build. So I took out the rear seats and the front and got some race seats that I thought looked good. Black with red stitching.
+
 <figure>
   <img src="/images/posts/lukes-boosted-vr6-golf/7.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/7.jpg 1x, /images/posts/lukes-boosted-vr6-golf/7@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
-  <img src="/images/posts/lukes-boosted-vr6-golf/8.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/8.jpg 1x, /images/posts/lukes-boosted-vr6-golf/8@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
 </figure>
-To finish we could talk about what your plans are for the car. Are you going to sell it? Completely change how it looks? Maybe you consider the build to be completely done?
-<br/>What do you think you could have done better? Any tips or advice for the ones that might be considering doing something like what you did?
 
+The steering wheel is Momo, and of course black with red stitching. Picked up a Mk3 25th anniversary golfball shift knob. The front floors were re-done for the turbo build by [DTM](http://dtmautowerks.com).
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<figure class="pair">
+  <img src="/images/posts/lukes-boosted-vr6-golf/8.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/8.jpg 1x, /images/posts/lukes-boosted-vr6-golf/8@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
+
+  <img src="/images/posts/lukes-boosted-vr6-golf/9.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/9.jpg 1x, /images/posts/lukes-boosted-vr6-golf/9@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
+</figure>
+
+While there I got the half-cage and Corbeau harnesses installed too. After everything was installed I did the false floor for the trunk in my driveway. Just a simple black floor with a display for my spare BBS wheel.
+
+<div class="spacer-120"></div>
+
+For where I am with the car now I think I'm content. Maybe do a little work here and there but nothing major for right now. This is my dream car so I'm taking my time with it, no need to rush. Eventually down the road I'd like to do a respray and fix all the little blemishes it has but until then I'll just drive it how it is, no hood and everything.
+<br/><br/>
+Speed Safely
