@@ -46,7 +46,9 @@ And as for the lights I wanted to smoke everything out to match with the car. So
 The wheels I'm currently running are Rotiform IDKs reps from JNC 15x8 ET +20 and the tires are 195/50R15s. I really liked the way they looked so I just took the leap and got them. I'm not one of those people who bitches about running real or fake wheels, to me if they look cool then you should send it.
 
 #### The Engine
-When I had gotten the car it had an original 16v motor and trans. Ran perfectly fine but I really loved VR6s, so I went with that. I brought my car to [DTM](http://dtmautowerks.com) in late December of 2014 to do all the work. We had gotten the motor/trans from a 1996 Jetta and then the fun began.
+When I got the car it had an original 16v motor and trans. Ran perfectly fine but I really loved VR6s, so I went with that. Brought it to [DTM](http://dtmautowerks.com) in late December of 2014 to do all the work.
+<br/>
+We got the motor/trans from a 1996 Jetta and then the fun began.
 
 <figure>
   <img src="/images/posts/lukes-boosted-vr6-golf/5.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/5.jpg 1x, /images/posts/lukes-boosted-vr6-golf/5@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
