@@ -24,7 +24,7 @@ I’m Luke Rocknak and I’m from Milford, NH. My car is a 1988 Volkswagen Gti V
 <br/><br/>
 It had started with me basically stalking this car on vwvortex back in September/October of 2012. I've always wanted a black 3 door Mk2 with big bumpers, I love the boxy body style. I ended up going down to Amesbury, MA in the beginning of December of 2012 to finally buy it. It was all original with a 16v motor and some extra parts. Ran like a top when I picked it up and stayed that way for 2 years then I wanted to start doing some motor modifications in December of 2014.
 <br/><br/>
-I do what I can in my driveway/garage and whatever I can't do I bring it to [DTM Autowerks](http://dtmautowerks.com) in Milford. I've always gone to them since I got my license in 2009 because of the amazing work they do.
+I do what I can in my driveway/garage and whatever I can't, I bring it to [DTM Autowerks](http://dtmautowerks.com) in Milford. I've always gone to them since I got my license in 2009 because of the amazing work they do.
 
 #### Exterior Mods
 
