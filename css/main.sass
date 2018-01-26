@@ -13,7 +13,7 @@ $font-fam-body: "Roboto Mono", sans-serif
   -webkit-font-smoothing: antialiased
 
 body
-  font-family: "Roboto", sans-serif
+  font-family: $font-fam-body
   color: $color-text-main
 
 img
@@ -78,9 +78,9 @@ h4
 
 p
   font-family: $font-fam-body
-  font-size: 14px
-  line-height: 26px
-  letter-spacing: -0.09px
+  font-size: 16px
+  line-height: 32px
+  letter-spacing: -0.12px
   color: #0C0C0C
 
 .body-small
@@ -442,11 +442,11 @@ article
   p,
   a
     width: 100%
-    max-width: 560px
+    max-width: 586px
 
   h1
     margin: 20px 0 30px 0
-    max-width: 560px
+    max-width: 586px
     text-align: center
 
   p:nth-child(1),
@@ -455,7 +455,7 @@ article
 
   h4
     margin-top: 120px
-    margin-bottom: 40px
+    margin-bottom: 30px
     position: relative
     display: flex
     flex-direction: column
@@ -467,7 +467,7 @@ article
       width: 40px
       height: 3px
       background: #000
-      margin-top: 20px
+      margin-top: 10px
 
   figure
     width: 100%
@@ -485,7 +485,6 @@ article
     max-width: 586px
     height: 120px
     margin-top: 120px
-    border-top: 1px solid #EFEFEF
     display: flex
     align-items: center
     justify-content: center
@@ -496,8 +495,15 @@ article
 
     ul
       display: flex
-      margin-left: 50px
 
       li:first-child
-        margin-right: 30px
+        margin-right: 80px
         margin-top: 1px
+
+      li a
+        display: flex
+
+        span
+          font-size: 12px
+          letter-spacing: -0.09px
+          margin-left: 8px
