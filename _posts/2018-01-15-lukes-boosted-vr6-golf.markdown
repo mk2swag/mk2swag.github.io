@@ -28,7 +28,7 @@ I do what I can in my driveway/garage and whatever I can't, I bring it to [DTM A
 
 #### Exterior Mods
 
-Since this is a black car, I thought red would be a nice touch to it. Just a few small details with because I didn't want to take away from the black.
+Since it's a black car, I thought red would be a nice touch to it. Just a few small details with because I didn't want to take away from the black.
 
 <figure class="pair">
   <img src="/images/posts/lukes-boosted-vr6-golf/2.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/2.jpg 1x, /images/posts/lukes-boosted-vr6-golf/2@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
@@ -54,7 +54,9 @@ When I got the car it had an original 16v motor and trans. Ran perfectly fine bu
 
 Sent the head out and had it ran through and then put a c2 chip and 262 cams in it. Went with a 2 1/2 straight pipe to a borla exhaust, not too loud but still enough to make some heads turn. Re-sprayed the engine bay a dark grey to color match a set of BBS RMs I have.
 <br/><br/>
-Had a blast with that setup, but I wanted more power. Two years later in March of 2017 the turbo build began. 42 lb injectors, headspacer 8:1, APR head studs, 262 cams, C2 chip, Peloquin diff, stage 4 clutch, GTX3582R turbo, hydraulic clutch, custom turbo piping, coolant pipes and brake fluid reservoir, and a few red touches in the engine bay to carry the theme.
+Had a blast with that setup, but I wanted more power.
+<br/>
+Two years later in March of 2017 the turbo build began. 42 lb injectors, headspacer 8:1, APR head studs, 262 cams, C2 chip, Peloquin diff, stage 4 clutch, GTX3582R turbo, hydraulic clutch, custom turbo piping, coolant pipes and brake fluid reservoir, and a few red touches in the engine bay to carry the theme.
 
 <figure>
   <img src="/images/posts/lukes-boosted-vr6-golf/6.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/6.jpg 1x, /images/posts/lukes-boosted-vr6-golf/6@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
@@ -62,7 +64,7 @@ Had a blast with that setup, but I wanted more power. Two years later in March o
 
 Not sure what its making because we haven't put it on the dyno yet, but the hp should be around the high 300s. Its pushing 13 lbs of boost right now and thats only half boost. The suspension I'm running is the basic Raceland reds.
 
-#### Interiors
+#### Interior
 As for the interior, I loved the original seats but I had to change them to make it a little safer for the turbo build. So I took out the rear seats and the front and got some race seats that I thought looked good. Black with red stitching.
 
 <figure>
@@ -77,7 +79,7 @@ The steering wheel is Momo, and of course black with red stitching. Picked up a 
   <img src="/images/posts/lukes-boosted-vr6-golf/9.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/9.jpg 1x, /images/posts/lukes-boosted-vr6-golf/9@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
 </figure>
 
-While there I got the half-cage and Corbeau harnesses installed too. After everything was installed I did the false floor for the trunk in my driveway. Just a simple black floor with a display for my spare BBS wheel.
+While there I got the half-cage and Corbeau harnesses installed too. After everything was installed I did the false floor for the trunk in my driveway. Just a simple black floor with a display for my spare BBS.
 
 <div class="spacer-120"></div>
 
