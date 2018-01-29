@@ -85,9 +85,9 @@ p
   color: $color-text-body
 
 .body-small
-  font-size: 14px
+  font-size: 12px
   line-height: 20px
-  letter-spacing: 0.27px
+  letter-spacing: -0.24px
 
 .body-large
   font-size: 18px
@@ -446,9 +446,18 @@ article
     max-width: 586px
 
   h1
-    margin: 20px 0 30px 0
-    max-width: 586px
+    margin: 20px 0 60px 0
+    max-width: 686px
     text-align: center
+
+  .article-author
+    display: flex
+    flex-direction: row
+    align-items: center
+
+    p
+      line-height: 18px
+      margin-left: 16px
 
   p:nth-child(1),
   p:nth-child(3)
