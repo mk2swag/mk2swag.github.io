@@ -4,9 +4,7 @@
     <title>menu</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-30.000000, -58.000000)">
-        <g id="menu" transform="translate(29.000000, 57.000000)" fill="#FFFFFF">
-            <polygon id="Combined-Shape" points="8 8 8 1 10 1 10 8 17 8 17 10 10 10 10 17 8 17 8 10 1 10 1 8"></polygon>
-        </g>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="menu" fill="#000000" points="7 7 7 0 9 4.4408921e-16 9 7 16 7 16 9 9 9 9 16 7 16 7 9 0 9 0 7"></polygon>
     </g>
 </svg>
