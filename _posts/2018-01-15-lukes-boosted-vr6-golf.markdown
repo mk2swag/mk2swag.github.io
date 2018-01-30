@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Luke’s Boosted VR6 Golf"
-description: ""
+description: "A closer look to this VRT build, from New Hampshire"
 permalink: "lukes-boosted-vr6-golf/"
 date:   2018-01-15 15:30:17 +0000
 image: "/images/first@2x.jpg"
