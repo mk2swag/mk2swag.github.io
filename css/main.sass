@@ -49,11 +49,16 @@ h1
   letter-spacing: -1.66px
   text-transform: uppercase
 
+  @media (max-width: 1004px)
+    font-size: 80px
+    line-height: 84px
+    letter-spacing: -3.52px
+
 h2
   font-family: $font-fam-titles
-  font-size: 62px
-  line-height: 62px
-  letter-spacing: -2.76px
+  font-size: 80px
+  line-height: 84px
+  letter-spacing: -3.52px
   text-transform: uppercase
   font-weight: 700
 
@@ -305,8 +310,11 @@ header
   background: #FFF
   margin-top: 40px
 
+  .post-category
+    margin-left: 40px
+
   &-info
-    padding: 0 80px
+    margin-left: 60px
 
   .featured-post-image
     display: block
@@ -318,14 +326,16 @@ header
       max-width: 584px
 
   h2
-    margin: 20px 0
-    max-width: 400px
+    margin: 20px 0 60px 0
+    max-width: 556px
 
     a
       font-weight: 700
 
   .post-excerpt
     margin-top: 30px
+    margin-left: 40px
+    max-width: 380px
 
   @media (max-width: 1240px)
     .featured-post-image
@@ -337,7 +347,6 @@ header
 
     .featured-post-info
       width: 50%
-      padding: 0 55px
       box-sizing: border-box
 
       p
@@ -347,6 +356,10 @@ header
       .post-excerpt
         margin-top: 16px
         line-height: 24px
+
+  @media (max-width: 1100px)
+    h2
+      margin: 20px 0 24px 0
 
   @media (max-width: 760px)
     flex-direction: column
@@ -438,6 +451,14 @@ article
     &-120
       height: 120px
 
+  .article-header
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    .post-category
+      text-align: center
+
   h4,
   p,
   a
@@ -454,14 +475,13 @@ article
     display: flex
     flex-direction: row
     align-items: center
-    margin-top: -20px
-    margin-bottom: 60px
+    margin-top: 40px
 
     p
       line-height: 18px
       margin-left: 16px
 
-  p:nth-child(1),
+  p:nth-child(0),
   p:nth-child(3)
     text-align: center
 

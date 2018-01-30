@@ -29,17 +29,32 @@ layout: default
       </div>
 
       <ul class="social">
-        <li><a href="https://www.instagram.com/mk2swag/" target="_blank"><img src="/images/instagram.svg" alt="Mk2Swag Instagram"></a></li>
-        <li><a href="https://www.facebook.com/mk2swag/" target="_blank"><img src="/images/facebook.svg" alt="Mk2Swag Facebook"></a></li>
+        <li><a href="https://www.instagram.com/mk2swag/" target="_blank"><img src="/images/instagram.svg" alt="Mk2Swag Instagram" width="16"></a></li>
+        <li><a href="https://www.facebook.com/mk2swag/" target="_blank"><img src="/images/facebook.svg" alt="Mk2Swag Facebook" width="16"></a></li>
       </ul>
     </div>
   </header>
 
   <div class="container-small">
     <article>
-      <div class="post-content e-content" itemprop="articleBody">
-        {{ content }}
+      <div class="article-header">
+        {% for category in page.categories %}
+          <a href="#" class="post-category">{{ category }}</a>
+        {% endfor %}
+
+        <h1>{{ page.title }}</h1>
+
+        <p class="body-large">{{ page.description }}</p>
+
+        <div class="article-author">
+          <img src="{{ page.imagesPath }}author.jpg" width="40">
+          <p class="body-small">By <strong>{{ page.authorName }}</strong> <br/> — {{ page.authorRole }}</p>
+        </div>
       </div>
+
+        <div class="post-content e-content" itemprop="articleBody">
+          {{ content }}
+        </div>
     </article>
   </div>
 </div>

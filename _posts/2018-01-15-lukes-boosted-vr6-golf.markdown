@@ -5,19 +5,11 @@ description: ""
 permalink: "lukes-boosted-vr6-golf/"
 date:   2018-01-15 15:30:17 +0000
 image: "/images/first@2x.jpg"
+imagesPath: "/images/posts/lukes-boosted-vr6-golf/"
 categories: projects
+authorName: "Luke Rocknak"
+authorRole: "Owner"
 ---
-
-{% for category in page.categories %}
-  <a href="#" class="post-category">{{ category }}</a>
-{% endfor %}
-
-# {{ page.title }}
-
-<div class="article-author">
-  <img src="/images/posts/lukes-boosted-vr6-golf/author.jpg" width="40">
-  <p class="body-small">By <strong>Luke Rocknak</strong> <br/> — Owner</p>
-</div>
 
 <figure>
   <img src="/images/posts/lukes-boosted-vr6-golf/1.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/1.jpg 1x, /images/posts/lukes-boosted-vr6-golf/1@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">

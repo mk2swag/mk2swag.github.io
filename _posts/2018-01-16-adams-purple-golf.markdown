@@ -3,28 +3,17 @@ layout: post
 title:  "Adam’s Purple Golf"
 description: "Get to know this Fedex Purple Golf from Brockton, Massachusetts."
 permalink: "adams-purple-golf/"
-date:   2018-01-15 15:30:17 +0000
+date:   2018-01-16 15:30:17 +0000
 image: "/images/posts/adams-purple-golf/1@2x.jpg"
 imagesPath: "/images/posts/adams-purple-golf/"
 categories: projects
+authorName: "Adam Haigh"
+authorRole: "Owner"
 ---
-
-{% for category in page.categories %}
-  <a href="#" class="post-category">{{ category }}</a>
-{% endfor %}
-
-# {{ page.title }}
-
-<p class="body-large">{{ page.description }}</p>
 
 <figure>
   <img src="{{ page.imagesPath }}1.jpg" srcset="{{ page.imagesPath }}1.jpg 1x, {{ page.imagesPath }}1@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
 </figure>
-
-<div class="article-author">
-  <img src="{{ page.imagesPath }}author.jpg" width="40">
-  <p class="body-small">By <strong>Adam Haigh</strong> <br/> — Owner</p>
-</div>
 
 My name is Adam Haigh, I’m from Brockton, Massachusetts and this is my 1991 Volkswagen Golf.
 <br/><br/>
