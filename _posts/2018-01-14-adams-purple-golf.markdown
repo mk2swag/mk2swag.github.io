@@ -3,9 +3,9 @@ layout: post
 title:  "Adam’s Purple Golf"
 description: "Get to know this Fedex Purple Golf from Brockton, Massachusetts."
 permalink: "adams-purple-golf/"
-date:   2018-01-16 15:30:17 +0000
-image: "/images/posts/adams-purple-golf/1@2x.jpg"
+date:   2018-01-14 15:30:17 +0000
 imagesPath: "/images/posts/adams-purple-golf/"
+image: "/images/posts/adams-purple-golf/thumb.jpg"
 categories: projects
 authorName: "Adam Haigh"
 authorRole: "Owner"

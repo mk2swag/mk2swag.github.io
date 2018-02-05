@@ -34,7 +34,7 @@ layout: default
   </header>
 
   <section class="posts">
-    <div class="container">
+    <div class="container-small">
       {% if site.posts.size > 0 %}
         {% for post in site.posts limit:1 %}
           <div class="featured-post">
@@ -53,13 +53,13 @@ layout: default
 
               <!-- <p class="body-small post-date">{{ post.date | date: date_format}}</p> -->
 
-              <p class="body-large post-excerpt">{{ post.description }}</p>
+              <p class="post-excerpt">{{ post.description }}</p>
             </div>
           </div>
         {% endfor %}
 
         <div class="posts-list">
-          <div class="container-small">
+          <div class="container-smaller">
             <h4>More<br/>Posts</h4>
             <ul>
               {% for post in site.posts offset:1 %}
@@ -74,11 +74,12 @@ layout: default
                       <a href="#" class="post-category">{{ category }}</a>
                     {% endfor %}
 
+                    <!-- <p class="post-date">{{ post.date | date: date_format }}</p> -->
+
                     <h3 class="post-title">
                       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                     </h3>
-
-                    <p class="body-small post-date">{{ post.date | date: date_format }}</p>
+                    <p class="post-excerpt">{{ post.description }}</p>
                   </div>
                 </li>
               {% endfor %}

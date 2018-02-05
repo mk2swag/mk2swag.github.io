@@ -4,8 +4,8 @@ title:  "Luke’s Boosted VR6 Golf"
 description: "A closer look to this VRT build, from New Hampshire"
 permalink: "lukes-boosted-vr6-golf/"
 date:   2018-01-15 15:30:17 +0000
-image: "/images/first@2x.jpg"
 imagesPath: "/images/posts/lukes-boosted-vr6-golf/"
+image: "/images/posts/lukes-boosted-vr6-golf/thumb@2x.jpg"
 categories: projects
 authorName: "Luke Rocknak"
 authorRole: "Owner"
