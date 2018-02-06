@@ -1,7 +1,7 @@
 # Belongs at: /_data/navigation.yml
 
 - title: Home
-  url: /deving/
+  url: /
 
 - title: About
   url: /welcome-to-mk2-swag/
