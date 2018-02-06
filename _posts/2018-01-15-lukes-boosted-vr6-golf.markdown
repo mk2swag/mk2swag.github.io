@@ -83,3 +83,7 @@ For where I am with the car now I think I'm content.
 Maybe do a little work here and there but nothing major for right now. This is my dream car so I'm taking my time with it, no need to rush. Eventually down the road I'd like to do a respray and fix all the little blemishes it has but until then I'll just drive it how it is, no hood and everything.
 <br/><br/>
 Speed Safely
+<br/><br/>
+-
+<br/>
+Follow Luke's build: [@gti_16valve_603](https://www.instagram.com/gti_16valve_603/)
