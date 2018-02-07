@@ -34,59 +34,49 @@ layout: default
   </header>
 
   <section class="posts">
-    <div class="container-small">
+    <div class="container">
       {% if site.posts.size > 0 %}
-        {% for post in site.posts limit:1 %}
-          <div class="featured-post">
-            <a href="{{ post.url | relative_url }}" class="featured-post-image"><img src="{{ post.image }}" alt=""></a>
-            {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
-
-            <div class="featured-post-info">
-
-              {% for category in post.categories %}
-                <a href="#" class="post-category">{{ category }}</a>
-              {% endfor %}
-
-              <h2 class="post-title">
-                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-              </h2>
-
-              <!-- <p class="body-small post-date">{{ post.date | date: date_format}}</p> -->
-
-              <p class="post-excerpt">{{ post.description }}</p>
-            </div>
-          </div>
-        {% endfor %}
-
         <div class="posts-list">
-          <div class="container-smaller">
-            <h4>More<br/>Posts</h4>
-            <ul>
-              {% for post in site.posts offset:1 %}
-                <li>
-                  <a href="{{ post.url | relative_url }}" class="post-image">
-                    <img src="{{ post.image }}" alt="">
-                  </a>
-                  {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
+          <h4>Recent Posts</h4>
+          <ul>
+            {% for post in site.posts %}
+              <li>
+                <a href="{{ post.url | relative_url }}" class="post-image">
+                  <img src="{{ post.image }}" alt="">
+                </a>
+                {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
 
-                  <div class="post-info">
-                    {% for category in post.categories %}
-                      <a href="#" class="post-category">{{ category }}</a>
-                    {% endfor %}
+                <div class="post-info">
+                  {% for category in post.categories %}
+                    <a href="#" class="post-category">{{ category }}</a>
+                  {% endfor %}
 
-                    <!-- <p class="post-date">{{ post.date | date: date_format }}</p> -->
-
-                    <h3 class="post-title">
-                      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                    </h3>
-                    <p class="post-excerpt">{{ post.description }}</p>
-                  </div>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
+                  <h3 class="post-title">
+                    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                  </h3>
+                  <p class="post-excerpt">{{ post.description }}</p>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
         </div>
       {% endif %}
+
+      <!-- <aside>
+        <h4>Follow</h4>
+
+        <ul class="aside-social">
+          <li><a href="https://www.instagram.com/mk2swag/" target="_blank">
+            <img src="/images/instagram.svg" alt="Mk2Swag Instagram">
+            <span>Instagram</span>
+          </a></li>
+
+          <li><a href="https://www.facebook.com/mk2swag/" target="_blank">
+            <img src="/images/facebook.svg" alt="Mk2Swag Facebook">
+            <span>Facebook</span>
+          </a></li>
+        </ul>
+      </aside> -->
     </div>
   </section>
 
