@@ -74,3 +74,7 @@ Right now the car is torn apart for the swap. Dashboard is out to clean up all t
 And with the tubed front crossmember I’ll be using a mk3 VR radiator that will sit flush with the upper radiator support.
 <br/>
 I’d love to finish the swap by mid spring and that is what I am shooting for. But there is definitely a lot of work ahead of me.
+<br/><br/>
+-
+<br/>
+Follow Adams's build: [@vw_haigh](https://www.instagram.com/vw_haigh/)

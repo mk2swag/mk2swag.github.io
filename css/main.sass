@@ -51,9 +51,9 @@ img
 
 h1
   font-family: $font-fam-titles
-  font-size: 82px
-  line-height: 80px
-  letter-spacing: -1.06px
+  font-size: 72px
+  line-height: 82px
+  letter-spacing: -2.62px
   text-transform: uppercase
 
   @media (max-width: 1004px)
@@ -62,9 +62,9 @@ h1
     letter-spacing: -3.52px
 
   @media (max-width: 520px)
-    font-size: 68px
-    line-height: 64px
-    letter-spacing: -3.52px
+    font-size: 58px
+    line-height: 60px
+    letter-spacing: -3px
 
 h2
   font-family: $font-fam-titles
@@ -207,6 +207,14 @@ header
       margin-right: 50px
 
 .header-post
+  .container
+    position: relative
+    justify-content: center
+
+  nav
+    position: absolute
+    left: 0
+
   nav a
     display: flex
     align-items: center
@@ -352,9 +360,6 @@ header
     margin-top: 24px
     line-height: 20px
 
-    &::after
-      content: " ➞"
-
   @media (max-width: 1240px)
     .featured-post-image
       width: 50%
@@ -471,7 +476,7 @@ header
   align-items: center
 
 article
-  margin: 40px 0
+  margin: 20px 0 40px 0
 
   .spacer
     width: 100%
@@ -494,7 +499,7 @@ article
     max-width: 586px
 
   h1
-    margin: 30px 0 60px 0
+    margin: 30px 0 20px 0
     width: 100%
     max-width: 686px
     text-align: center
