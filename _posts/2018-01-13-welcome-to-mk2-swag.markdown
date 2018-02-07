@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Mk2Swag"
 description: "Happy to announce the launch of the website!"
 permalink: "welcome-to-mk2-swag/"
-date:   2018-01-14 15:30:17 +0000
+date:   2018-02-6 12:00:00 +0000
 imagesPath: "/images/posts/welcome-to-mk2-swag/"
 image: "/images/posts/welcome-to-mk2-swag/thumb.jpg"
 categories: general
