@@ -17,29 +17,52 @@ layout: default
     </div>
   </div>
 
-  <header class="header-home">
-    <div class="container">
+  <div class="hero">
+    <header class="header-home">
+      <div class="container">
+        {% include navigation.html %}
 
-      {% include navigation.html %}
+        <div class="logo-container">
+          <a href="/" class="logo-container"><img src="/images/logo.svg" alt="Mk2Swag"></a>
+        </div>
 
-      <div class="logo-container">
-        <a href="/" class="logo-container"><img src="/images/logo.svg" alt="Mk2Swag"></a>
+        <ul class="social">
+          <li><a href="https://www.instagram.com/mk2swag/" target="_blank"><img src="/images/instagram.svg" alt="Mk2Swag Instagram"></a></li>
+          <li><a href="https://www.facebook.com/mk2swag/" target="_blank"><img src="/images/facebook.svg" alt="Mk2Swag Facebook"></a></li>
+        </ul>
       </div>
-
-      <ul class="social">
-        <li><a href="https://www.instagram.com/mk2swag/" target="_blank"><img src="/images/instagram.svg" alt="Mk2Swag Instagram"></a></li>
-        <li><a href="https://www.facebook.com/mk2swag/" target="_blank"><img src="/images/facebook.svg" alt="Mk2Swag Facebook"></a></li>
-      </ul>
+    </header>
+    
+    <div class="container">
+      <p class="body-large intro-text"><strong>Sharing the love for the <br/> second gen. Golfs and Jettas</strong></p>
     </div>
-  </header>
+  </div>
 
   <section class="posts">
     <div class="container">
       {% if site.posts.size > 0 %}
+      {% for post in site.posts limit:1 %}
+        <div class="featured-post">
+          <a href="{{ post.url | relative_url }}" class="featured-post-image"><img src="{{ post.image }}" alt=""></a>
+           {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
+
+          <div class="featured-post-info">
+
+            {% for category in post.categories %}
+              <a href="#" class="post-category">{{ category }}</a>
+            {% endfor %}
+
+            <h3 class="post-title">
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h3>
+            <p class="post-excerpt">{{ post.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+
         <div class="posts-list">
-          <h4>Recent Posts</h4>
           <ul>
-            {% for post in site.posts %}
+            {% for post in site.posts offset:1 %}
               <li>
                 <a href="{{ post.url | relative_url }}" class="post-image">
                   <img src="{{ post.image }}" alt="">
@@ -51,9 +74,9 @@ layout: default
                     <a href="#" class="post-category">{{ category }}</a>
                   {% endfor %}
 
-                  <h3 class="post-title">
+                  <h4 class="post-title">
                     <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                  </h3>
+                  </h4>
                   <p class="post-excerpt">{{ post.description }}</p>
                 </div>
               </li>

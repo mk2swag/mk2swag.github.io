@@ -12,16 +12,18 @@ layout: default
     </div>
   </div>
 
-  <header class="header-post">
+  <header class="header-home">
     <div class="container">
-
-      <nav>
-        <ul><li><a href="/">Back</a></li></ul>
-      </nav>
+      {% include navigation.html %}
 
       <div class="logo-container">
         <a href="/" class="logo-container"><img src="/images/logo.svg" alt="Mk2Swag"></a>
       </div>
+
+      <ul class="social">
+        <li><a href="https://www.instagram.com/mk2swag/" target="_blank"><img src="/images/instagram.svg" alt="Mk2Swag Instagram"></a></li>
+        <li><a href="https://www.facebook.com/mk2swag/" target="_blank"><img src="/images/facebook.svg" alt="Mk2Swag Facebook"></a></li>
+      </ul>
     </div>
   </header>
 
@@ -34,7 +36,7 @@ layout: default
 
         <h1>{{ page.title }}</h1>
 
-        <p class="body-large">{{ page.description }}</p>
+        <!-- <p class="body-large">{{ page.description }}</p> -->
 
         <div class="article-author">
           <img src="{{ page.imagesPath }}author.jpg" width="40">

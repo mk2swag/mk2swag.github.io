@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Adam’s Purple Golf"
-description: "Get to know this Fedex Purple Golf from Brockton, Massachusetts."
+title:  "Adam’s Fedex Purple Golf"
+description: "My name is Adam Haigh, I’m from Brockton, Massachusetts and this is my 1991 Volkswagen Golf."
 permalink: "adams-purple-golf/"
 date:   2018-02-6 13:00:00 +0000
-imagesPath: "/images/posts/adams-purple-golf/"
-image: "/images/posts/adams-purple-golf/1@2x.jpg"
+imagesPath: "/images/posts/adams-fedex-purple-golf/"
+image: "/images/posts/adams-fedex-purple-golf/1@2x.jpg"
 categories: projects
 authorName: "Adam Haigh"
 authorRole: "Owner"
@@ -17,8 +17,10 @@ authorRole: "Owner"
 
 My name is Adam Haigh, I’m from Brockton, Massachusetts and this is my 1991 Volkswagen Golf.
 <br/><br/>
-The day I brought it home, back in June 2015, was the beginning of a wonderful passion that i have learned so much from. I was at a local car meet and someone had mentioned they were selling an older Volkswagen, and it sparked my interest. I didn’t really knew much about cars at that time, but I decided to buy it anyways.
-<br/>
+I was at a local car meet and someone had mentioned they were selling an older Volkswagen, and it sparked my interest. I didn’t really knew much about cars at that time, but I decided to buy it anyways.
+
+>The day I brought it home, back in June 2015, was the beginning of a wonderful passion that i have learned so much from.
+
 It was spray painted matte black, with black teardrops and lowered on cut springs. The car was rough on the outside. It was when I started digging into it when I really fell in love with the brand. Had a great little 8 valve, and it was my first manual car.
 
 <figure>

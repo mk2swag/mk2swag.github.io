@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Luke’s Boosted VR6 Golf"
-description: "A closer look to this VRT build, from New Hampshire"
+description: "I’m Luke Rocknak and I’m from Milford, NH. My car is a 1988 Volkswagen Gti VRT aka Gwen."
 permalink: "lukes-boosted-vr6-golf/"
 date:   2018-02-6 12:30:00 +0000
 imagesPath: "/images/posts/lukes-boosted-vr6-golf/"
