@@ -49,13 +49,21 @@ layout: default
       </div>
 
       <div class="article-footer">
-        <a href="#">Back to Top ^</a>
+        <div class="share-buttons">
+          <div class="fb-share-button"
+            data-href="{{ site.url }}/{{ page.permalink }}"
+            data-layout="button_count">
+          </div>
 
-        <div class="fb-share-button"
-          data-href="{{ site.url }}/{{ page.permalink }}" 
-          data-layout="button_count">
+          <a class="twitter-share-button"
+            href="https://twitter.com/intent/tweet?text=Just%20read%20this%20awesome%20post%20on%20Mk2Swag!">
+          Tweet</a>
         </div>
       </div>
     </article>
+  </div>
+
+  <div class="back-posts">
+    <a href="/">Back to All Posts</a>
   </div>
 </div>
