@@ -1,4 +1,5 @@
 var trigger = document.getElementsByClassName('join-maillist')[0],
+    mobileTrigger = document.getElementsByClassName('mobile-join-maillist')[0],
     popup   = document.getElementsByClassName('join-maillist-card')[0],
     close   = popup.getElementsByClassName('close')[0];
 
@@ -15,6 +16,12 @@ var closePopup = function() {
 }
 
 trigger.addEventListener('click', function(e) {
+  e.preventDefault();
+
+  openPopup();
+});
+
+mobileTrigger.addEventListener('click', function(e) {
   e.preventDefault();
 
   openPopup();

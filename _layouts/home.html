@@ -4,10 +4,12 @@ layout: default
 <div class="join-maillist-card hidden">
   <div class="card">
     <a href="#" class="close">Close</a>
-    <h3>Join Mk2Swag</h3>
-    <p>Get the latest updates in your inbox!</p>
 
-    <form action="https://mk2swag.us16.list-manage.com/subscribe/post?u=3e81f3a21571b5940de8db20c&amp;id=2d21a83ec2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div class="content">
+      <h3>Join Mk2Swag</h3>
+      <p>Get the latest updates in your inbox!</p>
+
+      <form action="https://mk2swag.us16.list-manage.com/subscribe/post?u=3e81f3a21571b5940de8db20c&amp;id=2d21a83ec2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div id="mc_embed_signup_scroll">
         <div class="field-group">
         	<label for="mce-FNAME">First Name</label>
@@ -29,6 +31,7 @@ layout: default
         <input type="submit" value="Click to Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
       </div>
     </form>
+    </div>
   </div>
 
   <div class="overlay"></div>
@@ -51,9 +54,11 @@ layout: default
       </div>
     </header>
 
-    <div class="header-mobile header-mobile-home">
+    <div class="header-mobile">
       <span class="mobile-nav-trigger"></span>
-      <a href="/" class="logo-container"><img src="/images/logo.svg" alt="Mk2Swag"></a>
+      <div class="logo-container">
+        <a href="/" class="logo"></a>
+      </div>
 
       <div class="mobile-menu">
         {% include navigation.html %}
@@ -73,24 +78,29 @@ layout: default
   <section class="posts">
     <div class="container">
       {% if site.posts.size > 0 %}
-      {% for post in site.posts limit:1 %}
+        {% for post in site.posts limit:1 %}
         <div class="featured-post">
-          <a href="{{ post.url | relative_url }}" class="featured-post-image"><img src="{{ post.image }}" alt=""></a>
-           {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
+            <a href="{{ post.url | relative_url }}" class="featured-post-image"><img src="{{ post.image }}" alt=""></a>
+             {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
 
-          <div class="featured-post-info">
+            <div class="featured-post-info">
 
-            {% for category in post.categories %}
-              <a href="#" class="post-category">{{ category }}</a>
-            {% endfor %}
+              {% for category in post.categories %}
+                <a href="#" class="post-category">{{ category }}</a>
+              {% endfor %}
 
-            <h3 class="post-title">
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h3>
-            <!-- <p class="post-excerpt">{{ post.description }}</p> -->
+              <h3 class="post-title">
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              </h3>
+              <!-- <p class="post-excerpt">{{ post.description }}</p> -->
+            </div>
           </div>
+        {% endfor %}
+
+        <div class="mobile-join-maillist">
+          <h5>Join Mk2Swag</h5>
+          <p class="body-small">Click to subscribe</p>
         </div>
-      {% endfor %}
 
         <div class="posts-list">
           <ul>

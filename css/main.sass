@@ -156,6 +156,10 @@ h3
   text-transform: uppercase
   font-weight: 800
 
+  @media (max-width: 624px)
+    font-size: 32px
+    letter-spacing: -0.5px
+
 h4
   font-family: $font-fam-titles
   font-size: 28px
@@ -171,6 +175,10 @@ h5
   line-height: 24px
   letter-spacing: 0.41px
 
+  @media (max-width: 624px)
+    font-size: 18px
+    letter-spacing: 0.18px
+
 p
   font-family: $font-fam-body
   font-size: 15px
@@ -181,7 +189,7 @@ p
 .body-small
   font-size: 12px
   line-height: 20px
-  letter-spacing: -0.24px
+  letter-spacing: -0.1px
 
 .body-large
   font-size: 18px
@@ -213,6 +221,28 @@ a
   &:hover
     text-decoration: underline
 
+.logo-container
+  display: flex
+  justify-content: center
+  margin-top: 50px
+
+  .logo
+    display: block
+    width: 96px
+    height: 60px
+    background: url(/images/logo.svg) center center no-repeat
+    background-size: contain
+    transition: all 200ms
+
+    &:hover
+      background: url(/images/logo-2.svg) center center no-repeat
+
+  @media (max-width: 760px)
+    margin-top: 0px
+
+    .logo
+      width: 78px
+      height: 50px
 
 header
   width: 100%
@@ -276,21 +306,6 @@ header
           background: #000
           margin-top: 2px
 
-  .logo-container
-    display: flex
-    justify-content: center
-    margin-top: 50px
-
-    .logo
-      display: block
-      width: 96px
-      height: 60px
-      background: url(/images/logo.svg) center center no-repeat
-      transition: all 200ms
-
-      &:hover
-        background: url(/images/logo-2.svg) center center no-repeat
-
   ul.social
     display: flex
     justify-content: flex-end
@@ -321,7 +336,7 @@ header
 
 .header-mobile
   width: 100%
-  height: 140px
+  padding: 30px 0
   display: none
   justify-content: center
   transition: height 200ms
@@ -383,7 +398,7 @@ header
     background-image: url(/images/menu.svg)
     position: absolute
     right: 30px
-    top: 60px
+    top: 47px
     cursor: pointer
     z-index: 1000
     transition: all 200ms
@@ -413,17 +428,7 @@ header
 
 
 .hero
-  // background: #F9F9F9
   position: relative
-
-  // &::after
-  //   content: ""
-  //   width: 100%
-  //   height: 160px
-  //   display: block
-  //   position: absolute
-  //   background: #F9F9F9
-  //   z-index: -100
 
 .intro-text
   text-align: center
@@ -437,7 +442,7 @@ header
   margin-top: 80px
 
   @media (max-width: 760px)
-    margin-top: 50px
+    margin-top: 0px
 
   .container
     display: flex
@@ -517,7 +522,7 @@ header
       max-width: 586px
 
   h3
-    margin: 14px 0 24px 0
+    margin: 12px 0 24px 0
     max-width: 556px
 
     a
@@ -525,6 +530,23 @@ header
 
   .post-excerpt
     line-height: 24px
+
+  @media (max-width: 624px)
+    width: calc(100% + 40px)
+    margin-bottom: 40px
+
+    .featured-post-info
+      padding: 6px 32px 0
+      text-align: center
+
+      h3
+        margin-bottom: 0
+
+    .featured-post-image
+      max-width: none
+
+      img
+        max-width: none
 
 
 .posts-list
@@ -537,6 +559,10 @@ header
     flex-wrap: wrap
     width: 100%
     max-width: 790px
+
+    @media (max-width: 820px)
+      flex-direction: column
+      align-items: center
 
     li img,
       max-width: 380px
@@ -554,6 +580,9 @@ header
           width: 100%
           height: 252px
           object-fit: cover
+
+      @media (max-width: 624px)
+        margin-bottom: 60px
 
     @media (max-width: 520px)
       li img
@@ -575,6 +604,13 @@ header
       line-height: 24px
       max-height: 48px
       overflow: hidden
+
+    @media (max-width: 624px)
+      text-align: center
+      padding: 8px 24px 0
+
+  @media (max-width: 624px)
+    margin-top: 40px
 
 
 // ARTICLE ================
@@ -756,7 +792,6 @@ article
 .join-maillist-card
   width: 100%
   height: 100%
-  padding: 0 20px
   box-sizing: border-box
   position: fixed
   top: 0
@@ -774,12 +809,21 @@ article
   .card
     width: 100%
     max-width: 500px
-    // height: 428px
     background: #FFF
     border: 3px solid #2932DF
     padding: 50px 50px
     box-sizing: border-box
     position: relative
+
+    .content
+      width: 100%
+
+    @media (max-width: 500px)
+      height: 100%
+      display: flex
+      align-items: center
+      padding: 0px 30px
+
 
     .close
       position: absolute
@@ -790,6 +834,10 @@ article
       width: 24px
       height: 24px
       background: url(/images/close.svg) center center no-repeat
+
+      @media (max-width: 500px)
+        top: 30px
+        right: 30px
 
     h3
       margin-bottom: 12px
@@ -812,3 +860,23 @@ article
     top: 0
     left: 0
     z-index: -1
+
+.mobile-join-maillist
+  width: 100%
+  height: 72px
+  border: 2px solid #2932DF
+  padding: 0 24px
+  box-sizing: border-box
+  display: flex
+  flex-direction: column
+  justify-content: center
+  position: relative
+
+  &::after
+    content: ""
+    display: block
+    width: 24px
+    height: 24px
+    background: url(/images/right-arrow.svg) center center no-repeat
+    position: absolute
+    right: 16px
