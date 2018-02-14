@@ -235,7 +235,7 @@ a
     transition: all 200ms
 
     &:hover
-      background: url(/images/logo-2.svg) center center no-repeat
+      background-image: url(/images/logo-2.svg)
 
   @media (max-width: 760px)
     margin-top: 0px
@@ -522,7 +522,7 @@ header
       max-width: 586px
 
   h3
-    margin: 12px 0 24px 0
+    margin: 12px 0 0 0
     max-width: 556px
 
     a
@@ -531,9 +531,11 @@ header
   .post-excerpt
     line-height: 24px
 
+  @media (max-width: 760px)
+    margin-bottom: 40px
+
   @media (max-width: 624px)
     width: calc(100% + 40px)
-    margin-bottom: 40px
 
     .featured-post-info
       padding: 6px 32px 0
@@ -609,7 +611,7 @@ header
       text-align: center
       padding: 8px 24px 0
 
-  @media (max-width: 624px)
+  @media (max-width: 760px)
     margin-top: 40px
 
 
@@ -863,6 +865,7 @@ article
 
 .mobile-join-maillist
   width: 100%
+  max-width: 586px
   height: 72px
   border: 2px solid #2932DF
   padding: 0 24px
@@ -881,5 +884,5 @@ article
     position: absolute
     right: 16px
 
-  @media (min-width: 624px)
+  @media (min-width: 760px)
     display: none
