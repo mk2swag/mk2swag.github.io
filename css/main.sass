@@ -3,6 +3,7 @@
 $color-text-main: #000000
 $color-text-body: #30353A
 $color-text-hover: #FE2D60
+$color-text-light: #A7ABAE
 
 $font-fam-titles: "Oswald", sans-serif
 $font-fam-body: "Roboto Mono", sans-serif
@@ -20,6 +21,73 @@ body
 img
   max-width: 100%
 
+::-webkit-input-placeholder
+  color: $color-text-light
+
+::-moz-placeholder
+  color: $color-text-light
+
+\:-ms-input-placeholder
+  color: $color-text-light
+
+\:-moz-placeholder
+  color: $color-text-light
+
+::placeholder
+  color: $color-text-light
+
+
+input[type=submit]
+  width: 100%
+  height: 48px
+  border: none
+  border-radius: none
+  background: #000
+  color: #FFF
+  font-family: $font-fam-titles
+  text-transform: uppercase
+  font-size: 12px
+  letter-spacing: 0.5px
+  font-weight: 500
+  cursor: pointer
+  transition: all 200ms
+
+  &:hover
+    background: #35383B
+
+input[type=text],
+input[type=email]
+  width: 100%
+  height: 56px
+  outline: none
+  border: none
+  border-bottom: 1px solid #E9E9E9
+  font-family: $font-fam-body
+  font-size: 15px
+  letter-spacing: -0.2px
+  box-sizing: border-box
+
+  &:focus
+    border-bottom: 1px solid #000
+
+label
+  font-size: 12px
+  font-weight: 500
+  letter-spacing: 0
+  cursor: pointer
+
+.field-group
+  display: flex
+
+  label
+    min-width: 100px
+    position: absolute
+    padding-top: 20px
+
+  input[type=text],
+  input[type=email]
+    padding-left: 100px
+
 .wrapper
   width: 100%
 
@@ -29,6 +97,7 @@ img
   padding: 0 20px
   box-sizing: border-box
   margin: auto
+  position: relative
 
 .container-small
   width: 100%
@@ -642,18 +711,90 @@ article
     padding: 40px 0
     font-size: 14px
 
+.join-maillist-container
+  width: 100%
+  position: fixed
+  left: 0px
+  bottom: 40px
+  padding-left: 40px
 
-#mc_embed_signup
-  position: absolute
+  a
+    text-transform: uppercase
+    font-family: $font-fam-titles
+    font-size: 12px
+    letter-spacing: 0.5px
+    font-weight: 500
+    line-height: 14px
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    width: 70px
+    height: 70px
+    border: 2px solid #000
+    border-radius: 100%
+    box-sizing: border-box
+    padding-bottom: 4px
+
+    @media (max-width: 760px)
+      display: none
+
+.join-maillist-card
+  width: 100%
+  height: 100%
+  padding: 0 20px
+  box-sizing: border-box
+  position: fixed
   top: 0
   left: 0
-  width: 100%
-  height: 60px
+  z-index: 100000
+  display: flex
+  align-items: center
+  justify-content: center
+  transition: all 200ms
 
-  .container
+  &.hidden
+    visibility: hidden
+    opacity: 0
+
+  .card
+    width: 100%
+    max-width: 500px
+    height: 428px
+    background: #FFF
+    border: 3px solid #000
+    padding: 50px 50px
+    box-sizing: border-box
+    position: relative
+
+    .close
+      position: absolute
+      top: 20px
+      right: 20px
+      font-size: 0
+      display: block
+      width: 24px
+      height: 24px
+      background: url(/images/close.svg) center center no-repeat
+
+    h3
+      margin-bottom: 18px
+
     form
-      width: 100%
+      margin-top: 40px
 
-    form > div
-      width: 100%
-      display: flex
+    form .field-group:first-child
+      margin-bottom: 8px
+
+    form input[type=submit]
+      margin-top: 30px
+
+  .overlay
+    width: 100%
+    height: 100%
+    background: #FFF
+    opacity: .9
+    position: absolute
+    top: 0
+    left: 0
+    z-index: -1
