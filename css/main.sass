@@ -735,11 +735,13 @@ article
   margin: 60px auto 80px auto
   display: flex
   justify-content: center
+  flex-direction: column
 
   .share-buttons
     display: flex
     align-items: center
     justify-content: center
+    margin-bottom: 60px
 
   .fb-share-button
     margin-right: 10px
@@ -789,18 +791,29 @@ article
     @media (max-width: 760px)
       display: none
 
-.join-maillist-card
-  width: 100%
-  height: 100%
-  box-sizing: border-box
-  position: fixed
-  top: 0
-  left: 0
-  z-index: 100000
-  display: flex
-  align-items: center
-  justify-content: center
-  transition: all 200ms
+.join-maillist
+
+  &-popup
+    width: 100%
+    height: 100%
+    box-sizing: border-box
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 100000
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: all 200ms
+
+    .card
+      max-width: 500px
+
+      // @media (max-width: 500px)
+      //   height: 100%
+      //   display: flex
+      //   align-items: center
+      //   padding: 0px 30px
 
   &.hidden
     visibility: hidden
@@ -808,7 +821,6 @@ article
 
   .card
     width: 100%
-    max-width: 500px
     background: #FFF
     border: 3px solid #2932DF
     padding: 50px 50px
@@ -822,7 +834,7 @@ article
       height: 100%
       display: flex
       align-items: center
-      padding: 0px 30px
+      padding: 30px 30px
 
 
     .close
@@ -841,6 +853,9 @@ article
 
     h3
       margin-bottom: 12px
+
+    p
+      line-height: 20px
 
     form
       margin-top: 40px

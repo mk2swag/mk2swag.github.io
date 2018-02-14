@@ -1,6 +1,6 @@
-var trigger = document.getElementsByClassName('join-maillist')[0],
+var trigger = document.getElementsByClassName('join-maillist-trigger')[0],
     mobileTrigger = document.getElementsByClassName('mobile-join-maillist')[0],
-    popup   = document.getElementsByClassName('join-maillist-card')[0],
+    popup   = document.getElementsByClassName('join-maillist')[0],
     close   = popup.getElementsByClassName('close')[0];
 
 var openPopup = function() {
