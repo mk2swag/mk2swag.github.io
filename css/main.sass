@@ -277,10 +277,19 @@ header
           margin-top: 2px
 
   .logo-container
-    text-align: center
+    display: flex
+    justify-content: center
+    margin-top: 50px
 
-    img
+    .logo
+      display: block
+      width: 96px
       height: 60px
+      background: url(/images/logo.svg) center center no-repeat
+      transition: all 200ms
+
+      &:hover
+        background: url(/images/logo-2.svg) center center no-repeat
 
   ul.social
     display: flex
@@ -425,7 +434,7 @@ header
 
 // POSTS ===================
 .posts
-  margin-top: 90px
+  margin-top: 80px
 
   @media (max-width: 760px)
     margin-top: 50px
