@@ -105,6 +105,7 @@ layout: default
         <div class="posts-list">
           <ul>
             {% for post in site.posts offset:1 %}
+            {% if post.draft %}{% else %}
               <li>
                 <a href="{{ post.url | relative_url }}" class="post-image">
                   <img src="{{ post.image }}" alt="">
@@ -122,6 +123,7 @@ layout: default
                   <!-- <p class="post-excerpt">{{ post.description }}</p> -->
                 </div>
               </li>
+            {% endif %}
             {% endfor %}
           </ul>
         </div>

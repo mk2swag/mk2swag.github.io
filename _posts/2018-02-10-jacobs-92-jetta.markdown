@@ -1,29 +1,36 @@
 ---
 layout: post
+draft: true
 title:  "Jacob's '92 Jetta"
 description: "My name is Heather Tucker, I live in Georgia and this is my 1990 Volkswagen Golf."
 permalink: "jacobs-92-jetta/"
-date:   2018-02-13 13:00:00 +0000
-imagesPath: "/images/posts/jacobs-92-jetta/"
-image: "/images/posts/jacobs-92-jetta/1@2x.jpg"
-categories: projects
+date:   2018-02-10 13:00:00 +0000
+imagesPath: "/images/posts/jacobs-92-jetta/jacobs-92-jetta-"
+image: "/images/posts/jacobs-92-jetta/jacobs-92-jetta-3.jpg"
+categories: draft
 authorName: "Jacob Payne"
 authorRole: "Owner"
 ---
 
 <figure>
-  <img src="{{ page.imagesPath }}1@2x.jpg" alt="{{ page.title }}">
+  <img src="{{ page.imagesPath }}3.jpg" alt="{{ page.title }}">
 </figure>
 
 My name is Jacob Payne and I am the owner of this 1992 Jetta Gl.
 <br/><br/>
-I originally bought this car 3 and a half years ago as a broke college student looking for a cheap and gas friendly form of transportation. When I first bought it I had no intentions on doing anything to it and was planning on running the stock 8v to the ground. Almost 3 and a half years later is has become something I can’t ever see me getting rid of.
+I originally bought this car 3 and a half years ago as a broke college student looking for a cheap and gas friendly form of transportation.
+
+<figure>
+  <img src="{{ page.imagesPath }}4.jpg" alt="{{ page.title }}">
+</figure>
+
+When I first bought it I had no intentions on doing anything to it and was planning on running the stock 8v to the ground. Almost 3 and a half years later is has become something I can’t ever see me getting rid of.
 
 #### Exterior Mods
 The Jetta currently sits on a harder to find set of 16x8 Firebird wheels, and had previously sat on the more common 15x7 set and is lowered with coilovers.
 
 <figure>
-  <img src="{{ page.imagesPath }}1@2x.jpg" alt="{{ page.title }}">
+  <img src="{{ page.imagesPath }}1.jpg" alt="{{ page.title }}">
 </figure>
 
 Just about every year there is a new vinyl made for the car to keep things changing.
@@ -36,7 +43,7 @@ It has a 276 degree tt cam with an adjustable cam gear, Mk4
 intake and exhaust manifold, followed by a full 2.5inch tt exhaust.
 
 <figure>
-  <img src="{{ page.imagesPath }}4@2x.jpg" alt="{{ page.title }}">
+  <img src="{{ page.imagesPath }}5.jpg" alt="{{ page.title }}">
 </figure>
 
 This winter the car went under the knife and is currently having the engine bay shaved and wire harnesses extended and tucked.
@@ -47,10 +54,14 @@ As for interior, the Jetta has a full trophy interior that was swapped in to rep
 
 
 #### Final Notes
-Overall, I can honestly say this car has changed my life and actually saved me a lot of money that would’ve been spend on a much more expensive car. This car has brought me a lot of great friends and i look forward to the new show season to come.
+Overall, I can honestly say this car has changed my life and actually saved me a lot of money that would’ve been spend on a much more expensive car.
+
+<figure>
+  <img src="{{ page.imagesPath }}6.jpg" alt="{{ page.title }}">
+</figure>
+
+This car has brought me a lot of great friends and i look forward to the new show season to come.
 <br/><br/>
 -
 <br/>
 Follow Jacob's build: [@jacobpayne24](https://www.instagram.com/jacobpayne24/)
-<br/>
-All photos by [@brownman.km](https://www.instagram.com/brownman.km/)

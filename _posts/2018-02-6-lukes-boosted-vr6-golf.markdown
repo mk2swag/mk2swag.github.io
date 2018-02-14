@@ -5,7 +5,7 @@ description: "I’m Luke Rocknak and I’m from Milford, NH. My car is a 1988 Vo
 permalink: "lukes-boosted-vr6-golf/"
 date:   2018-02-6 12:30:00 +0000
 imagesPath: "/images/posts/lukes-boosted-vr6-golf/"
-image: "/images/posts/lukes-boosted-vr6-golf/thumb@2x.jpg"
+image: "/images/posts/lukes-boosted-vr6-golf/1@2x.jpg"
 categories: projects
 authorName: "Luke Rocknak"
 authorRole: "Owner"
