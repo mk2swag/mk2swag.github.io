@@ -1,13 +1,12 @@
 ---
 layout: post
-draft: true
 title:  "Jacob's '92 Jetta"
 description: "My name is Heather Tucker, I live in Georgia and this is my 1990 Volkswagen Golf."
 permalink: "jacobs-92-jetta/"
-date:   2018-02-10 13:00:00 +0000
+date:   2018-02-14 13:00:00 +0000
 imagesPath: "/images/posts/jacobs-92-jetta/jacobs-92-jetta-"
 image: "/images/posts/jacobs-92-jetta/jacobs-92-jetta-3.jpg"
-categories: draft
+categories: projects
 authorName: "Jacob Payne"
 authorRole: "Owner"
 ---
@@ -22,6 +21,7 @@ I originally bought this car 3 and a half years ago as a broke college student l
 
 <figure>
   <img src="{{ page.imagesPath }}4.jpg" alt="{{ page.title }}">
+  <figcaption>Photo by <a href="https://www.instagram.com/headhuntersracing/" target="_blank">@headhuntersracing</a></figcaption>
 </figure>
 
 When I first bought it I had no intentions on doing anything to it and was planning on running the stock 8v to the ground. Almost 3 and a half years later is has become something I can’t ever see me getting rid of.
@@ -31,6 +31,7 @@ The Jetta currently sits on a harder to find set of 16x8 Firebird wheels, and ha
 
 <figure>
   <img src="{{ page.imagesPath }}1.jpg" alt="{{ page.title }}">
+  <figcaption>Photo by <a href="https://www.instagram.com/a_kauff/" target="_blank">@a_kauff</a></figcaption>
 </figure>
 
 Just about every year there is a new vinyl made for the car to keep things changing.
@@ -58,6 +59,7 @@ Overall, I can honestly say this car has changed my life and actually saved me a
 
 <figure>
   <img src="{{ page.imagesPath }}6.jpg" alt="{{ page.title }}">
+  <figcaption>Photo by <a href="https://www.instagram.com/headhuntersracing/" target="_blank">@headhuntersracing</a></figcaption>
 </figure>
 
 This car has brought me a lot of great friends and i look forward to the new show season to come.

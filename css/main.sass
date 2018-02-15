@@ -4,6 +4,7 @@ $color-text-main: #000000
 $color-text-body: #30353A
 $color-text-hover: #FE2D60
 $color-text-light: #A7ABAE
+$color-text-secondary: #6A7178
 
 $font-fam-titles: "Oswald", sans-serif
 $font-fam-body: "Roboto Mono", sans-serif
@@ -507,10 +508,11 @@ header
   margin-bottom: 120px
 
   &-info
-    padding: 20px 32px 0
+    padding: 14px 32px 0
     width: 100%
     max-width: 586px
     box-sizing: border-box
+    text-align: center
 
   .featured-post-image
     display: block
@@ -522,7 +524,7 @@ header
       max-width: 586px
 
   h3
-    margin: 12px 0 0 0
+    margin: 14px 0 0 0
     max-width: 556px
 
     a
@@ -539,7 +541,6 @@ header
 
     .featured-post-info
       padding: 6px 32px 0
-      text-align: center
 
       h3
         margin-bottom: 0
@@ -592,6 +593,7 @@ header
 
   .post-info
     padding: 14px 24px 0
+    text-align: center
 
     h4
       margin-top: 10px
@@ -608,7 +610,6 @@ header
       overflow: hidden
 
     @media (max-width: 624px)
-      text-align: center
       padding: 8px 24px 0
 
   @media (max-width: 760px)
@@ -699,7 +700,15 @@ article
     align-items: center
     justify-content: center
     flex-wrap: wrap
-    margin: 80px 0 80px 0
+    margin: 80px 0 70px 0
+
+  figure figcaption
+    font-size: 12px
+    margin-top: 14px
+    color: $color-text-secondary
+
+    a
+      color: $color-text-secondary
 
   .article-share
     width: 100%

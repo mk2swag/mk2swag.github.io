@@ -105,25 +105,23 @@ layout: default
         <div class="posts-list">
           <ul>
             {% for post in site.posts offset:1 %}
-            {% if post.draft %}{% else %}
-              <li>
-                <a href="{{ post.url | relative_url }}" class="post-image">
-                  <img src="{{ post.image }}" alt="">
-                </a>
-                {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
+            <li>
+              <a href="{{ post.url | relative_url }}" class="post-image">
+                <img src="{{ post.image }}" alt="">
+              </a>
+              {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
 
-                <div class="post-info">
-                  {% for category in post.categories %}
-                    <a href="#" class="post-category">{{ category }}</a>
-                  {% endfor %}
+              <div class="post-info">
+                {% for category in post.categories %}
+                  <a href="#" class="post-category">{{ category }}</a>
+                {% endfor %}
 
-                  <h4 class="post-title">
-                    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                  </h4>
-                  <!-- <p class="post-excerpt">{{ post.description }}</p> -->
-                </div>
-              </li>
-            {% endif %}
+                <h4 class="post-title">
+                  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </h4>
+                <!-- <p class="post-excerpt">{{ post.description }}</p> -->
+              </div>
+            </li>
             {% endfor %}
           </ul>
         </div>
