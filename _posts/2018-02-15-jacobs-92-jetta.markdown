@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Jacob's '92 Jetta"
-description: "My name is Heather Tucker, I live in Georgia and this is my 1990 Volkswagen Golf."
+description: "My name is Jacob Payne and I am the owner of this 1992 Jetta Gl."
 permalink: "jacobs-92-jetta/"
-date:   2018-02-14 13:00:00 +0000
+date:   2018-02-15 12:00:00 +0000
 imagesPath: "/images/posts/jacobs-92-jetta/jacobs-92-jetta-"
 image: "/images/posts/jacobs-92-jetta/jacobs-92-jetta-3.jpg"
 categories: projects
