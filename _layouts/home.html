@@ -69,10 +69,6 @@ layout: default
         </ul>
       </div>
     </div>
-
-    <!-- <div class="container">
-      <p class="body-large intro-text"><strong>Sharing the love for the <br/> second gen. Golfs and Jettas</strong></p>
-    </div> -->
   </div>
 
   <section class="posts">
@@ -89,10 +85,11 @@ layout: default
                 <a href="#" class="post-category">{{ category }}</a>
               {% endfor %}
 
-              <h3 class="post-title">
+              <h2 class="post-title">
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-              </h3>
-              <!-- <p class="post-excerpt">{{ post.description }}</p> -->
+              </h2>
+
+              <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 32 }}</p>
             </div>
           </div>
         {% endfor %}
@@ -119,7 +116,8 @@ layout: default
                 <h4 class="post-title">
                   <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                 </h4>
-                <!-- <p class="post-excerpt">{{ post.description }}</p> -->
+
+                <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 22 }}</p>
               </div>
             </li>
             {% endfor %}
@@ -151,10 +149,3 @@ layout: default
 </div>
 
 <script src="/javascript/join-list.js"></script>
-
-
-<!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-</div>
-
-<!--End mc_embed_signup-->

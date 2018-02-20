@@ -7,7 +7,7 @@ $color-text-light: #A7ABAE
 $color-text-secondary: #6A7178
 
 $font-fam-titles: "Oswald", sans-serif
-$font-fam-body: "Roboto Mono", sans-serif
+$font-fam-body: "Archivo", "Roboto Mono", sans-serif
 
 *
   margin: 0
@@ -103,7 +103,7 @@ label
 .container-small
   width: 100%
   padding: 0 20px
-  max-width: 1034px
+  max-width: 992px
   box-sizing: border-box
   margin: auto
 
@@ -138,9 +138,9 @@ h1
 
 h2
   font-family: $font-fam-titles
-  font-size: 52px
-  line-height: 50px
-  letter-spacing: -1.7px
+  font-size: 44px
+  line-height: 44px
+  letter-spacing: -0.29px
   text-transform: uppercase
   font-weight: 800
 
@@ -182,9 +182,9 @@ h5
 
 p
   font-family: $font-fam-body
-  font-size: 15px
-  line-height: 30px
-  letter-spacing: -0.2px
+  font-size: 16px
+  line-height: 24px
+  letter-spacing: 0.3px
   color: $color-text-body
 
 .body-small
@@ -215,9 +215,8 @@ a
     text-transform: uppercase
     font-family: $font-fam-body
     font-size: 10px
-    letter-spacing: 1.39px
-    font-weight: 500
-    color: #444
+    letter-spacing: 0.4px
+    font-weight: 700
 
   &:hover
     text-decoration: underline
@@ -503,28 +502,33 @@ header
 
 .featured-post
   display: flex
-  flex-direction: column
+  flex-direction: row
   background: #FFF
   margin-bottom: 120px
 
   &-info
-    padding: 14px 32px 0
+    padding: 0 0 0 80px
     width: 100%
-    max-width: 586px
+    max-width: 476px
     box-sizing: border-box
-    text-align: center
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+    .post-category
+      margin-top: -10px
 
   .featured-post-image
     display: block
     width: 100%
-    max-width: 584px
+    max-width: 476px
 
     img
       width: 100%
-      max-width: 586px
+      max-width: 476px
 
-  h3
-    margin: 14px 0 0 0
+  h2
+    margin: 20px 0 16px 0
     max-width: 556px
 
     a
@@ -542,7 +546,7 @@ header
     .featured-post-info
       padding: 6px 32px 0
 
-      h3
+      h2
         margin-bottom: 0
 
     .featured-post-image
@@ -568,12 +572,12 @@ header
       align-items: center
 
     li img,
-      max-width: 380px
+      max-width: 374px
 
     li
       width: 100%
-      max-width: 380px
-      margin-bottom: 100px
+      max-width: 374px
+      margin-bottom: 120px
 
       .post-image
         display: block
@@ -592,12 +596,12 @@ header
         height: auto
 
   .post-info
-    padding: 14px 24px 0
-    text-align: center
+    padding: 16px 20px 0
+    // text-align: center
 
     h4
-      margin-top: 10px
-      margin-bottom: 20px
+      margin-top: 16px
+      margin-bottom: 16px
       max-width: 380px
 
       a
@@ -606,7 +610,7 @@ header
     p
       max-width: 332px
       line-height: 24px
-      max-height: 48px
+      // max-height: 72px
       overflow: hidden
 
     @media (max-width: 624px)
@@ -659,6 +663,9 @@ article
   h1
     text-align: center
     margin: 26px auto 50px auto
+
+  p
+    line-height: 28px
 
   .body-large
     max-width: 380px
@@ -817,12 +824,6 @@ article
 
     .card
       max-width: 500px
-
-      // @media (max-width: 500px)
-      //   height: 100%
-      //   display: flex
-      //   align-items: center
-      //   padding: 0px 30px
 
   &.hidden
     visibility: hidden
