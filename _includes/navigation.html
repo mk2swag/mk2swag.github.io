@@ -26,12 +26,12 @@
             <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
             <ul>
                 {% for sublink in sublinks %}
-                <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+                <li><a href="{{ site.baseurl }}{{ sublink.url }}" class="text-button">{{ sublink.title }}</a></li>
                 {% endfor %}
             </ul>
         </li>
         {% else %}
-        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-button">{{ entry.title }}</a></li>
         {% endif %}
     {% endfor %}
     </ul>
