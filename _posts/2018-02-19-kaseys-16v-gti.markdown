@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Kasey’s 16V gti"
-description: "My name is Jacob Payne and I am the owner of this 1992 Jetta Gl."
+title:  "Kasey’s 16V GTI"
+description: "My name is Kasey Lively, I live in Los Angeles California and this is my 1992 Volkswagen Golf Gti."
 permalink: "kaseys-16v-gti/"
 date:   2018-02-15 12:00:00 +0000
 imagesPath: "/images/posts/kaseys-16v-gti/kaseys-16v-gti-"
