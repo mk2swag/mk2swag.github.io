@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "Kasey’s 16V gti"
+description: "My name is Jacob Payne and I am the owner of this 1992 Jetta Gl."
+permalink: "kaseys-16v-gti/"
+date:   2018-02-15 12:00:00 +0000
+imagesPath: "/images/posts/kaseys-16v-gti/kaseys-16v-gti-"
+image: "/images/posts/kaseys-16v-gti/kaseys-16v-gti-1.jpg"
+categories: projects
+authorName: "Kasey Lively"
+authorRole: "Owner"
+---
+
+<figure>
+  <img src="{{ page.imagesPath }}1.jpg" alt="{{ page.title }}">
+</figure>
+
+My name is Kasey Lively, I live in Los Angeles California and this is my 1992 Volkswagen Golf Gti. I bought this car about 4 years ago completely stock from a guy up in North Hollywood. I had another Mk2 Golf with the same color, year, engine and everything else, that was t-boned just a month before i decided to get this one so I could start all over with a fresh, unmolested Mk2.
+<br/><br/>
+I had no intentions of making this a showcar. It's just as a hobby to keep me from my troubled lifestyle. As clichê as it sounds, Volkswagen saved my life.
+
+<figure>
+  <img src="{{ page.imagesPath }}4.jpg" alt="{{ page.title }}">
+</figure>
+
+
+#### A clean exterior
+The car is sitting on Borbet Type A’s that were in really rough shape, so I had them triple chromed and had a hard time finding original caps, instead of the flat caps everybody wants.
+
+<figure>
+  <img src="{{ page.imagesPath }}2.jpg" alt="{{ page.title }}">
+  <img src="{{ page.imagesPath }}3.jpg" alt="{{ page.title }}">
+</figure>
+
+In the front, it has crystal clear headlights, and a Bonrath single round grill. It originally came with the dual rounds, but I think the single rounds looks a lot cleaner. The tail lights came off of an european G60 (they are actual OEM G60 tail lights, not repros believe it or not!)
+
+<figure>
+  <img src="{{ page.imagesPath }}6.jpg" alt="{{ page.title }}">
+</figure>
+
+I also have a Piranha Louvre replica that covers the rear windshield. Finding louvres for these cars are extremely hard and I was lucky enough to have even found a replica.
+
+
+#### What engine is it running?
+The car originally came with the 1.8 8 Valve, but I ended up swapping it out with the 2.0 16v out of a 91 Jetta Gli. Now instead of running the CIS-E Motronic fuel system, which some people swear by, I took it all out and switched it to G60 injection from a 1990 Corrado. I am running a BBM fuel rail with A Porsche 3.5 bar FPR, along with the G60 wiring harness and alternator.
+
+<figure>
+  <img src="{{ page.imagesPath }}7.jpg" alt="{{ page.title }}">
+</figure>
+
+I haven’t done that much internally to the engine besides replace the inner cam chain and lifters.
+Don’t get me wrong I’d love to do more to the engine in the future, but for now she pulls and purrs just fine.
+<br/>
+I’m not out for speed, or looks, or to be the best. Just to enjoy working on this car and keeping it running the way it should.
+
+
+#### What about the interior?
+I haven’t done too much to the interior for the simple fact that the 16v takes all my money just trying to keep it in top shape and always fixing maintenance issues that the previous owner was too lazy to do. But the interior is all there and in great shape.
+<br/><br/>
+I have a Corrado steering wheel and an original Corrado red dot seats to match with that, which I've actually scored them from the junkyard not too long ago. I also have the golf ball shift knob, and I'm' in the process of redoing the headliner right now.
+
+
+#### To wrap things up
+Some people don’t believe me when I say it is the original Alpine White paint from the factory because of how clean it is. It’s rough around the edges and has one tiny dent by the passenger door, but to me that's what gives it personality and describes it as mine as well. I consider the car a survivor like me in this rough life we’ve had and we are good the way we are. All I do is add stuff to it, but I Try to keep it as OEM as possible.
+
+<figure>
+  <img src="{{ page.imagesPath }}5.jpg" alt="{{ page.title }}">
+</figure>
+
+There are a few more little things I’d like to add, like a Zender mid-wing and an heckblende to finish the exterior. Engine wise I still can’t decide like all of us haha. But for now the car deserves to be appreciated the way it is because how often do you see Mk2’s in this good of condition after so many years?
+<br/><br/>
+-
+<br/>
+You can follow Kasey's build in his Instagram [@_briefkase](https://www.instagram.com/_briefkase/)
+<br/><br/>
+Hope you enjoyed this week's feature as much as I did! Share this with your friends and if you're interested in being featured feel free to [shoot me an email](mailto:email.mk2swag@gmail.com)
+<br/>

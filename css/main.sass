@@ -184,7 +184,7 @@ p
   font-family: $font-fam-body
   font-size: 16px
   line-height: 24px
-  letter-spacing: 0.24px
+  letter-spacing: 0.32px
   color: $color-text-body
 
   a
@@ -234,6 +234,7 @@ a
     text-decoration: underline
 
 .text-button
+  display: inline-block
   text-transform: uppercase
   font-family: $font-fam-titles
   font-size: 12px
@@ -481,6 +482,12 @@ header
     .post-category
       margin-top: -10px
 
+    .text-button
+      margin-top: 32px
+
+      &:hover
+        color: $color-text-hover
+
   .featured-post-image
     display: block
     width: 100%
@@ -548,7 +555,7 @@ header
     li
       width: 100%
       max-width: 374px
-      margin-bottom: 120px
+      margin-bottom: 100px
 
       .post-image
         display: block
@@ -568,7 +575,6 @@ header
 
   .post-info
     padding: 16px 20px 0
-    // text-align: center
 
     h4
       margin-top: 16px
@@ -577,6 +583,12 @@ header
 
       a
         font-weight: 700
+
+    .text-button
+      margin-top: 32px
+
+      &:hover
+        color: $color-text-hover
 
     p
       max-width: 332px
@@ -650,7 +662,7 @@ article
     p
       line-height: 18px
       margin-left: 16px
-      letter-spacing: 0
+      letter-spacing: 0.3px
 
   h4
     font-family: $font-fam-body
@@ -674,6 +686,9 @@ article
     justify-content: center
     flex-wrap: wrap
     margin: 80px 0 70px 0
+
+    img:nth-child(2)
+      margin-top: 20px
 
   figure figcaption
     font-size: 12px
@@ -727,6 +742,9 @@ article
 
   .fb-share-button
     margin-right: 10px
+
+  .join-maillist
+    display: none
 
 .back-posts
   width: 100%

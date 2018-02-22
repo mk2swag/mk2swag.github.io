@@ -90,6 +90,8 @@ layout: default
               </h2>
 
               <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 32 }}</p>
+
+              <a href="{{ post.url | relative_url }}" class="text-button">Keep Reading</a>
             </div>
           </div>
         {% endfor %}
@@ -98,6 +100,8 @@ layout: default
           <h5>Join Mk2Swag</h5>
           <p class="body-small">Click to subscribe</p>
         </div>
+
+        <!-- <h5>More Posts</h5> -->
 
         <div class="posts-list">
           <ul>
@@ -118,6 +122,8 @@ layout: default
                 </h4>
 
                 <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 22 }}</p>
+
+                <a href="{{ post.url | relative_url }}" class="text-button">Keep Reading</a>
               </div>
             </li>
             {% endfor %}
