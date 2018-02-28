@@ -71,41 +71,21 @@ layout: default
     </div>
   </div>
 
+  <div class="intro-text">
+    <h1 class="body-large">Sharing the love for Mk2 Golfs & Jettas</h1>
+  </div>
+
   <section class="posts">
     <div class="container">
       {% if site.posts.size > 0 %}
-        {% for post in site.posts limit:1 %}
-        <div class="featured-post">
-            <a href="{{ post.url | relative_url }}" class="featured-post-image"><img src="{{ post.image }}" alt=""></a>
-             {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
-
-            <div class="featured-post-info">
-
-              {% for category in post.categories %}
-                <a href="#" class="post-category">{{ category }}</a>
-              {% endfor %}
-
-              <h2 class="post-title">
-                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-              </h2>
-
-              <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 32 }}</p>
-
-              <a href="{{ post.url | relative_url }}" class="text-button">Keep Reading</a>
-            </div>
-          </div>
-        {% endfor %}
-
         <div class="mobile-join-maillist">
           <h5>Join Mk2Swag</h5>
           <p class="body-small">Click to subscribe</p>
         </div>
 
-        <!-- <h5>More Posts</h5> -->
-
         <div class="posts-list">
           <ul>
-            {% for post in site.posts offset:1 %}
+            {% for post in site.posts %}
             <li>
               <a href="{{ post.url | relative_url }}" class="post-image">
                 <img src="{{ post.image }}" alt="">
@@ -113,17 +93,13 @@ layout: default
               {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
 
               <div class="post-info">
-                {% for category in post.categories %}
-                  <a href="#" class="post-category">{{ category }}</a>
-                {% endfor %}
-
                 <h4 class="post-title">
                   <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                 </h4>
 
-                <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 22 }}</p>
-
-                <a href="{{ post.url | relative_url }}" class="text-button">Keep Reading</a>
+                {% for category in post.categories %}
+                  <a href="#" class="post-category">{{ category }}</a>
+                {% endfor %}
               </div>
             </li>
             {% endfor %}
