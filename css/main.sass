@@ -121,9 +121,9 @@ label
 
 h1
   font-family: $font-fam-titles
-  font-size: 82px
-  line-height: 74px
-  letter-spacing: -1.38px
+  font-size: 70px
+  line-height: 66px
+  letter-spacing: -1.14px
   text-transform: uppercase
 
   @media (max-width: 1004px)
@@ -132,8 +132,8 @@ h1
     letter-spacing: -3.52px
 
   @media (max-width: 520px)
-    font-size: 58px
-    line-height: 60px
+    font-size: 52px
+    line-height: 54px
     letter-spacing: -3px
 
 h2
@@ -486,11 +486,30 @@ header
 
     li img,
       max-width: 476px
+      height: 316px
 
     li
       width: 100%
       max-width: 476px
       margin-bottom: 120px
+      position: relative
+
+      // &:first-child::before
+      //   content: 'NEW'
+      //   color: #FFF
+      //   font-family: $font-fam-body
+      //   font-size: 12px
+      //   font-weight: 700
+      //   display: flex
+      //   align-items: center
+      //   justify-content: center
+      //   width: 60px
+      //   height: 32px
+      //   background: #F2186A
+      //   border: 3px solid #FFF
+      //   position: absolute
+      //   left: calc(50% - 30px)
+      //   top: -20px
 
       .post-image
         display: block
@@ -503,7 +522,7 @@ header
       @media (max-width: 624px)
         margin-bottom: 60px
 
-    @media (max-width: 520px)
+    @media (max-width: 992px)
       li img
         height: auto
 
@@ -517,16 +536,10 @@ header
       a
         font-weight: 700
 
-    .text-button
-      margin-top: 32px
-
-      &:hover
-        color: $color-text-hover
-
     p
-      max-width: 332px
+      // max-width: 332px
       line-height: 24px
-      // max-height: 72px
+      margin-top: 24px
       overflow: hidden
 
     @media (max-width: 624px)
@@ -560,7 +573,7 @@ article
 
   .article-header
     width: 100%
-    max-width: 586px
+    max-width: 686px
     margin: auto
     display: flex
     flex-direction: column
@@ -569,7 +582,6 @@ article
     .post-category
       text-align: center
 
-  h1,
   h4,
   p,
   a
@@ -578,7 +590,10 @@ article
 
   h1
     text-align: center
-    margin: 26px auto 50px auto
+    margin: 26px auto -20px auto
+
+    @media (max-width: 760px)
+      margin: 26px auto -50px auto
 
   p
     @extend .body-large
@@ -586,7 +601,7 @@ article
     letter-spacing: 0.26px
 
   .article-author
-    display: flex
+    display: none
     flex-direction: row
     align-items: center
     margin-bottom: -10px

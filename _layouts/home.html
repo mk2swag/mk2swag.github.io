@@ -100,6 +100,8 @@ layout: default
                 {% for category in post.categories %}
                   <a href="#" class="post-category">{{ category }}</a>
                 {% endfor %}
+
+                <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 22 }}</p>
               </div>
             </li>
             {% endfor %}
