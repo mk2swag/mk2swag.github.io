@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Timo’s 16V Fire And Ice"
+title:  "Timo’s 16V Fire & Ice"
 description: "My Name is Timo Bahr, I live in Hamburg, Germany. I am 28 years old and this is my 1991 GTI 16V Fire and Ice."
 permalink: "timos-16v-fire-and-ice/"
 date:   2018-02-15 12:00:00 +0000
@@ -38,7 +38,7 @@ I like the classic look the most so for 2017 was nothing more to do!
 
 <figure>
   <img src="{{ page.imagesPath }}2.jpg" alt="{{ page.title }}">
-  
+
   <img src="{{ page.imagesPath }}5.jpg" alt="{{ page.title }}">
   <figcaption>Photo by <a href="https://www.instagram.com/vag215/" target="_blank">@vag215</a></figcaption>
 </figure>
