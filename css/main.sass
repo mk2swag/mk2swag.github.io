@@ -500,22 +500,22 @@ header
       margin-bottom: 120px
       position: relative
 
-      // &:first-child::before
-      //   content: 'NEW'
-      //   color: #FFF
-      //   font-family: $font-fam-body
-      //   font-size: 12px
-      //   font-weight: 700
-      //   display: flex
-      //   align-items: center
-      //   justify-content: center
-      //   width: 60px
-      //   height: 32px
-      //   background: #F2186A
-      //   border: 3px solid #FFF
-      //   position: absolute
-      //   left: calc(50% - 30px)
-      //   top: -20px
+      &:first-child::before
+        content: 'NEW'
+        color: #FFF
+        font-family: $font-fam-body
+        font-size: 12px
+        font-weight: 700
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 40px
+        height: 36px
+        background: #2932DF
+        border: 2px solid #FFF
+        position: absolute
+        left: 12px
+        top: -20px
 
       .post-image
         display: block
@@ -533,11 +533,11 @@ header
         height: auto
 
   .post-info
-    padding: 16px 10px 0
+    padding: 0 10px
 
     h4
-      margin-top: 24px
-      margin-bottom: 12px
+      margin-top: 40px
+      margin-bottom: 20px
 
       a
         font-weight: 700
@@ -545,7 +545,6 @@ header
     p
       // max-width: 332px
       line-height: 24px
-      margin-top: 24px
       overflow: hidden
 
     @media (max-width: 624px)

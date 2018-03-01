@@ -54,6 +54,10 @@ layout: default
           <ul>
             {% for post in site.posts %}
             <li>
+              <!-- {% for category in post.categories %}
+                <a href="#" class="post-category">{{ category }}</a>
+              {% endfor %} -->
+
               <a href="{{ post.url | relative_url }}" class="post-image">
                 <img src="{{ post.image }}" alt="">
               </a>
@@ -64,11 +68,7 @@ layout: default
                   <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                 </h4>
 
-                {% for category in post.categories %}
-                  <a href="#" class="post-category">{{ category }}</a>
-                {% endfor %}
-
-                <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 22 }}</p>
+                <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 30 }}</p>
               </div>
             </li>
             {% endfor %}
