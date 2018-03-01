@@ -5,9 +5,16 @@
 
   <body>
     <div class="wrapper">
+      <div class="join-maillist-trigger">
+        <p>Join the Mk2Swag Community!</p>
+      </div>
+
+      {% include maillist-popup.html %}
+
       {{ content }}
     </div>
   </body>
 
   <script src="/javascript/mobile-menu.js"></script>
+  <script src="/javascript/join-list.js"></script>
 </html>

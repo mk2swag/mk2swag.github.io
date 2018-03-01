@@ -244,7 +244,8 @@ a
 .logo-container
   display: flex
   justify-content: center
-  margin-top: 60px
+  align-items: center
+  // margin-top: 60px
 
   .logo
     display: block
@@ -266,7 +267,7 @@ a
 
 header
   width: 100%
-  padding-top: 30px
+  padding-top: 94px
 
   nav,
   .logo-container,
@@ -352,7 +353,9 @@ header
 .header-mobile
   width: 100%
   padding: 30px 0
+  margin-top: 44px
   display: none
+  position: relative
   justify-content: center
   transition: height 200ms
 
@@ -447,11 +450,14 @@ header
 
 .intro-text
   text-align: center
-  margin-top: 70px
+  margin-top: 120px
 
   h1
     text-transform: none
     font-family: $font-fam-body
+    font-size: 24px
+    letter-spacing: -0.17px
+    line-height: 28px
 
   @media (max-width: 760px)
     margin-top: 10px
@@ -705,38 +711,25 @@ article
     padding: 40px 0
     font-size: 14px
 
-.join-maillist-container
+.join-maillist-trigger
   width: 100%
+  height: 44px
+  background: #FFF
   position: fixed
+  z-index: 9999
   left: 0px
-  bottom: 40px
-  padding-left: 40px
+  top: 0px
+  border-bottom: 2px solid #2932DF
+  display: flex
+  align-items: center
+  justify-content: center
+  cursor: pointer
 
-  a
-    text-transform: uppercase
-    font-family: $font-fam-titles
-    font-size: 12px
-    letter-spacing: 0.1px
-    font-weight: 600
-    line-height: 14px
-    display: flex
-    align-items: center
-    justify-content: center
-    text-align: center
-    width: 70px
-    height: 70px
-    border: 2px solid #2932DF
-    border-radius: 100%
-    box-sizing: border-box
-    padding-bottom: 4px
-    color: #000
-
-    &:hover
-      text-decoration: none
-      color: #2932DF
-
-    @media (max-width: 760px)
-      display: none
+  p
+    font-size: 14px
+    letter-spacing: 0.02px
+    font-weight: 800
+    color: #2932DF
 
 .join-maillist
 
