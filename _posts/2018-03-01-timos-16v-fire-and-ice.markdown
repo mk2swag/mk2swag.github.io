@@ -52,7 +52,7 @@ And there it is right now. I’m working on it to make the original 16V PL engin
 
 
 #### Keeping the original interior
-The previous owner putted some Edition One Recaros in the Golf, but I wanted it with the original seats, so I got the Fire and Ice one.
+The previous owner had some Edition One Recaros in the Golf, but I wanted it with the original seats, so I got the Fire and Ice one.
 
 <figure>
   <img src="{{ page.imagesPath }}7.jpg" alt="{{ page.title }}">
