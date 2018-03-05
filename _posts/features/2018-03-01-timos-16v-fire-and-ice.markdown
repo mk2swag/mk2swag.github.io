@@ -3,7 +3,7 @@ layout: post
 title:  "Timo’s 16V Fire & Ice"
 description: "My Name is Timo Bahr, I live in Hamburg, Germany. I am 28 years old and this is my 1991 GTI 16V Fire and Ice."
 permalink: "timos-16v-fire-and-ice/"
-date:   2018-02-15 12:00:00 +0000
+date:   2018-03-01 12:00:00 +0000
 imagesPath: "/images/posts/timos-16v-fire-and-ice/timos-16v-fire-and-ice-"
 image: "/images/posts/timos-16v-fire-and-ice/timos-16v-fire-and-ice-1.jpg"
 categories: projects
