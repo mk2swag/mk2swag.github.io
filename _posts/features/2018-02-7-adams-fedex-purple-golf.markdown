@@ -68,7 +68,7 @@ From factory, it had the stock gray cloth seats, with the rear bench seat, which
 Then I was able to find the matching 60/40 split Recaros for the rear. I have also built a wooden trunk floor myself, which I plan to redo so i can relocate my battery to the trunk and have it hidden. I’ve also made a custom hockey stick shift knob out of a broken hockey stick I had laying around.
 
 #### Final Notes
-Right now the car is torn apart for the swap. Dashboard is out to clean up all the wiring behind. I’m having [DTM Autowerks](http://dtmautowerks.com) redoing my engine harness and I’m currently shaving the engine bay and preparing it for paint. I will be installing the [Fabless Manufacturing](https://fablessmanufacturing.com/shop/) Mk2 VR6 swap kit, which makes me excited for not having to cut my frame rail up.
+Right now the car is torn apart for the swap. Dashboard is out to clean up all the wiring behind. I’m having [DTM Autowerks](http://dtmautowerks.com) redoing my engine harness and I’m currently shaving the engine bay and preparing it for paint. I will be installing the [Fabless Manufacturing](https://fablessmanufacturing.com/shop/) [Mk2 VR6 Swap Kit](https://fablessmanufacturing.com/shop/mk2-vr6-engine-swap-kit-2-8l-3-2l-3-6l/), which makes me excited for not having to cut my frame rail up.
 
 <figure>
   <img src="{{page.imagesPath}}7.jpg" srcset="{{page.imagesPath}}7.jpg 1x, {{page.imagesPath}}7@2x.jpg 2x" alt="Adam's Purple Golf">
