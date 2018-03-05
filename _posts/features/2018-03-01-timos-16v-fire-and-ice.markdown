@@ -9,11 +9,8 @@ image: "/images/posts/timos-16v-fire-and-ice/timos-16v-fire-and-ice-1.jpg"
 categories: projects
 authorName: "Timo Bahr"
 authorRole: "Owner"
+type: "feature"
 ---
-
-<figure>
-  <img src="{{ page.imagesPath }}1.jpg" alt="{{ page.title }}">
-</figure>
 
 My Name is Timo Bahr, I live in Hamburg, Germany. I am 28 years old and this is my 1991 GTI 16V Fire and Ice.
 I bought this car last year in France, after my deployment in Mali, Africa because it’s very, very hard to find a original 16V Fire and Ice. I only know 2 others in Germany, and mine is in its original paint.

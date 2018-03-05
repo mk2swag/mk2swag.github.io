@@ -3,12 +3,13 @@ layout: post
 title:  "Adam’s Fedex Purple Golf"
 description: "My name is Adam Haigh, I’m from Brockton, Massachusetts and this is my 1991 Volkswagen Golf."
 permalink: "adams-purple-golf/"
-date:   2018-02-6 13:00:00 +0000
+date:   2018-02-7 13:00:00 +0000
 imagesPath: "/images/posts/adams-fedex-purple-golf/"
 image: "/images/posts/adams-fedex-purple-golf/1@2x.jpg"
 categories: projects
 authorName: "Adam Haigh"
 authorRole: "Owner"
+type: "feature"
 ---
 
 <figure>

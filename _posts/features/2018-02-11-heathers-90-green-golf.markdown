@@ -9,11 +9,9 @@ image: "/images/posts/heathers-90-green-golf/1@2x.jpg"
 categories: projects
 authorName: "Heather"
 authorRole: "Owner"
+type: "feature"
 ---
 
-<figure>
-  <img src="{{ page.imagesPath }}1.jpg" srcset="{{ page.imagesPath }}1.jpg 1x, {{ page.imagesPath }}1@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
-</figure>
 
 My name is Heather Tucker, I live in Georgia and this is my 1990 Volkswagen Golf.
 <br/>

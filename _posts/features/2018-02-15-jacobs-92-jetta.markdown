@@ -9,11 +9,9 @@ image: "/images/posts/jacobs-92-jetta/jacobs-92-jetta-3.jpg"
 categories: projects
 authorName: "Jacob Payne"
 authorRole: "Owner"
+type: "feature"
 ---
 
-<figure>
-  <img src="{{ page.imagesPath }}3.jpg" alt="{{ page.title }}">
-</figure>
 
 My name is Jacob Payne and I am the owner of this 1992 Jetta Gl.
 <br/><br/>

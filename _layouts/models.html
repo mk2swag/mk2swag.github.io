@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-<div class="join-maillist-trigger">
-  <p>Join the Mk2Swag Community!</p>
-</div>
-
-{% include maillist-popup.html %}
 
 <div class="content">
   <div class="hero">
@@ -24,7 +19,7 @@ layout: default
       </div>
     </header>
 
-    <div class="header-mobile header-mobile-home">
+    <div class="header-mobile">
       <span class="mobile-nav-trigger"></span>
       <div class="logo-container">
         <a href="/" class="logo"></a>
@@ -38,6 +33,12 @@ layout: default
           <li><a href="https://www.facebook.com/mk2swag/" target="_blank"><img src="/images/facebook.svg" alt="Mk2Swag Facebook"></a></li>
         </ul>
       </div>
+    </div>
+  </div>
+
+  <div class="intro-text">
+    <div class="container">
+      <h1>Curated Mk2 Golf Models</h1>
     </div>
   </div>
 
@@ -57,7 +58,7 @@ layout: default
               <a href="{{ post.url | relative_url }}" class="post-image">
                 <img src="{{ post.image }}" alt="">
               </a>
-              {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
+              {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
 
               <div class="post-info">
                 <h4 class="post-title">
@@ -65,11 +66,6 @@ layout: default
                 </h4>
 
                 <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 30 }}</p>
-
-                <div class="post-details">
-                  <time>{{ post.date | date: "%Y-%m-%d" }}</time>
-                  <a class="body-small" href="{{ post.url | relative_url }}" class="post-image">Read More</a>
-                </div>
               </div>
             </li>
             {% endif %}

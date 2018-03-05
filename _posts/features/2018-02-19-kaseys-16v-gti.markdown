@@ -3,17 +3,14 @@ layout: post
 title:  "Kasey’s 16V GTI"
 description: "My name is Kasey Lively, I live in Los Angeles California and this is my 1992 Volkswagen Golf Gti."
 permalink: "kaseys-16v-gti/"
-date:   2018-02-15 12:00:00 +0000
+date:   2018-02-19 12:00:00 +0000
 imagesPath: "/images/posts/kaseys-16v-gti/kaseys-16v-gti-"
 image: "/images/posts/kaseys-16v-gti/kaseys-16v-gti-1.jpg"
 categories: projects
 authorName: "Kasey Lively"
 authorRole: "Owner"
+type: "feature"
 ---
-
-<figure>
-  <img src="{{ page.imagesPath }}1.jpg" alt="{{ page.title }}">
-</figure>
 
 My name is Kasey Lively, I live in Los Angeles California and this is my 1992 Volkswagen Golf Gti. I bought this car about 4 years ago completely stock from a guy up in North Hollywood. I had another Mk2 Golf with the same color, year, engine and everything else, that was t-boned just a month before i decided to get this one so I could start all over with a fresh, unmolested Mk2.
 <br/><br/>

@@ -9,6 +9,7 @@ image: "/images/posts/lukes-boosted-vr6-golf/1@2x.jpg"
 categories: projects
 authorName: "Luke Rocknak"
 authorRole: "Owner"
+type: "feature"
 ---
 
 <figure>

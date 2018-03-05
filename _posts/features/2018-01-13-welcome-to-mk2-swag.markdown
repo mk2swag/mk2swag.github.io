@@ -9,6 +9,7 @@ image: "/images/posts/welcome-to-mk2-swag/thumb.jpg"
 categories: general
 authorName: "Vasco Marques"
 authorRole: "Founder"
+type: "feature"
 ---
 <div class="spacer-120"></div>
 
