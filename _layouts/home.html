@@ -53,6 +53,10 @@ layout: default
           <p class="body-small">Click to subscribe</p>
         </div>
 
+        <div class="latest-posts">
+          <div class="container-large"></div>
+        </div>
+
         <div class="posts-list">
           <ul>
             {% for post in site.posts %}
@@ -61,6 +65,7 @@ layout: default
               <a href="{{ post.url | relative_url }}" class="post-image">
                 <img src="{{ post.image }}" alt="">
               </a>
+
               {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
 
               <div class="post-info">
@@ -68,10 +73,10 @@ layout: default
                   <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                 </h4>
 
-                <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 30 }}</p>
+                <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 15 }}</p>
 
                 <div class="post-details">
-                  <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+                  <!-- <time>{{ post.date | date: "%Y-%m-%d" }}</time> -->
                   <a class="body-small" href="{{ post.url | relative_url }}" class="post-image">Read More</a>
                 </div>
               </div>
