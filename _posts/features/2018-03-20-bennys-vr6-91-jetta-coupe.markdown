@@ -3,7 +3,7 @@ layout: post
 title:  "Benny's VR6 '91 Jetta Coupe"
 description: "Hello Mk2Swag followers! I’m Davie and this is my project and my pop’s, from Southern California."
 permalink: "bennys-vr6-91-jetta-coupe/"
-date:   2018-03-19 12:00:00 +0000
+date:   2018-03-20 12:00:00 +0000
 imagesPath: "/images/posts/bennys-vr6-91-jetta-coupe/bennys-vr6-91-jetta-coupe-"
 image: "/images/posts/bennys-vr6-91-jetta-coupe/bennys-vr6-91-jetta-coupe-1.jpg"
 categories: projects
