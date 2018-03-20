@@ -153,9 +153,9 @@ h2
 
 h3
   font-family: $font-fam-titles
-  font-size: 36px
-  line-height: 32px
-  letter-spacing: -0.76px
+  font-size: 40px
+  line-height: 42px
+  letter-spacing: -0.34px
   text-transform: uppercase
   font-weight: 800
 
@@ -176,15 +176,12 @@ h5
   font-family: $font-fam-titles
   font-size: 24px
   line-height: 24px
-  letter-spacing: 0.41px
-
-  @media (max-width: 624px)
-    font-size: 18px
-    letter-spacing: 0.18px
+  letter-spacing: -0.25px
 
 p
   font-family: $font-fam-body
   font-size: 16px
+  font-weight: 400
   line-height: 24px
   letter-spacing: 0.32px
   color: $color-text-body
@@ -445,11 +442,118 @@ header
   .container
     display: flex
     flex-direction: column
-    align-items: center
 
+
+.latest-posts
+  &-list
+    display: flex
+    justify-content: space-between
+
+    @media (max-width: 968px)
+      flex-direction: column
+      align-items: center
+
+    li
+      width: 100%
+      max-width: 566px
+      max-height: 376px
+      position: relative
+
+      @media (max-width: 1172px)
+        max-width: 546px
+
+      @media (max-width: 1132px)
+        max-width: 526px
+
+      @media (max-width: 1092px)
+        max-width: 506px
+
+      @media (max-width: 1052px)
+        max-width: 486px
+
+      @media (max-width: 1012px)
+        max-width: 464px
+
+      @media (max-width: 968px)
+        max-height: none
+
+        &:first-child
+          margin-bottom: 60px
+
+      .post-link
+        display: block
+        width: 100%
+        height: 100%
+
+        &:hover
+          text-decoration: none
+
+      .post-image
+        display: block
+        width: 100%
+        max-height: 420px
+
+        img
+          width: 100%
+          height: 100%
+          max-height: 376px
+          object-fit: cover
+
+      @media (min-width: 968px)
+        .post-image::after
+          content: ''
+          display: block
+          width: 100%
+          height: 100%
+          max-height: 420px
+          background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.86) 87%)
+          top: 0
+          left: 0
+          position: absolute
+
+      .post-info
+        position: absolute
+        left: 50px
+        bottom: 24px
+        max-width: 436px
+
+        @media (max-width: 968px)
+          position: initial
+          padding: 0 30px
+
+          h3
+            font-family: $font-fam-titles
+            font-size: 30px
+            line-height: 30px
+            letter-spacing: -0.11px
+            text-transform: uppercase
+            font-weight: 800
+
+            margin-top: 24px
+            margin-bottom: 12px
+
+        @media (min-width: 968px)
+          h3,
+          p,
+          a
+            color: #FFF
+
+          p
+            opacity: .6
+            margin: 10px 0 12px 0
 
 .posts-list
   width: 100%
+  margin-top: 80px
+
+  @media (max-width: 968px)
+    .container
+      align-items: center
+
+      h5
+        width: 100%
+        max-width: 464px
+        text-align: center
 
   ul
     display: flex
@@ -457,6 +561,7 @@ header
     flex-wrap: wrap
     width: 100%
     max-width: 992px
+    margin-top: 60px
 
     @media (max-width: 1002px)
       flex-direction: column
@@ -472,23 +577,6 @@ header
       margin-bottom: 120px
       position: relative
 
-      &:first-child::before
-        content: 'NEW'
-        color: #FFF
-        font-family: $font-fam-body
-        font-size: 12px
-        font-weight: 700
-        display: flex
-        align-items: center
-        justify-content: center
-        width: 40px
-        height: 36px
-        background: #2932DF
-        border: 2px solid #FFF
-        position: absolute
-        left: 12px
-        top: -20px
-
       .post-image
         display: block
         width: 100%
@@ -497,7 +585,7 @@ header
           width: 100%
           object-fit: cover
 
-      @media (max-width: 624px)
+      @media (max-width: 968px)
         margin-bottom: 60px
 
     @media (max-width: 992px)
@@ -510,6 +598,10 @@ header
     h4
       margin-top: 32px
       margin-bottom: 16px
+
+      @media (max-width: 968px)
+        margin-top: 24px
+        margin-bottom: 12px
 
       a
         font-weight: 700
@@ -525,15 +617,15 @@ header
       justify-content: space-between
       align-items: center
 
+      @media (max-width: 968px)
+        display: none
+
       a
         color: #2932DF
 
     @media (max-width: 624px)
       h4
         margin: 20px 0 12px 0
-
-  @media (max-width: 760px)
-    margin-top: 20px
 
 
 /* ARTICLE ================ */

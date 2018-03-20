@@ -46,46 +46,73 @@ layout: default
   </div>
 
   <section class="posts">
-    <div class="container">
-      {% if site.posts.size > 0 %}
-        <div class="mobile-join-maillist">
-          <h5>Join Mk2Swag</h5>
-          <p class="body-small">Click to subscribe</p>
-        </div>
+    {% if site.posts.size > 0 %}
+      <div class="mobile-join-maillist">
+        <h5>Join Mk2Swag</h5>
+        <p class="body-small">Click to subscribe</p>
+      </div>
 
-        <div class="latest-posts">
-          <div class="container-large"></div>
-        </div>
-
-        <div class="posts-list">
-          <ul>
-            {% for post in site.posts %}
+      <div class="latest-posts">
+        <div class="container-large">
+          <ul class="latest-posts-list">
+            {% for post in site.posts limit:3 %}
             {% if post.type == 'feature' %}
+
             <li>
-              <a href="{{ post.url | relative_url }}" class="post-image">
-                <img src="{{ post.image }}" alt="">
-              </a>
-
-              {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
-
-              <div class="post-info">
-                <h4 class="post-title">
-                  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                </h4>
-
-                <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 15 }}</p>
-
-                <div class="post-details">
-                  <!-- <time>{{ post.date | date: "%Y-%m-%d" }}</time> -->
-                  <a class="body-small" href="{{ post.url | relative_url }}" class="post-image">Read More</a>
+              <a href="{{ post.url | relative_url }}" class="post-link">
+                <div class="post-image">
+                  <img src="{{ post.image }}" alt="">
                 </div>
-              </div>
+
+                {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
+
+                <div class="post-info">
+                  <a href="{{ post.url | relative_url }}" class="post-link">
+                  <h3 class="post-title">{{ post.title | escape }}</h3>
+
+                  <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 15 }}</p>
+                  </a>
+                </div>
+              </a>
             </li>
+
             {% endif %}
             {% endfor %}
           </ul>
         </div>
-      {% endif %}
-    </div>
+      </div>
+
+      <div class="posts-list">
+        <div class="container">
+          <h5>More <br/>Features</h5>
+          <ul>
+          {% for post in site.posts offset:3 %}
+          {% if post.type == 'feature' %}
+          <li>
+            <a href="{{ post.url | relative_url }}" class="post-image">
+              <img src="{{ post.image }}" alt="">
+            </a>
+
+            {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
+
+            <div class="post-info">
+              <h4 class="post-title">
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              </h4>
+
+              <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 15 }}</p>
+
+              <div class="post-details">
+                <!-- <time>{{ post.date | date: "%Y-%m-%d" }}</time> -->
+                <a class="body-small" href="{{ post.url | relative_url }}" class="post-image">Read More</a>
+              </div>
+            </div>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        </div>
+      </div>
+    {% endif %}
   </section>
 </div>
