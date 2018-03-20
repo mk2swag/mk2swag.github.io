@@ -12,10 +12,6 @@ authorRole: "Owner"
 type: "feature"
 ---
 
-<figure>
-  <img src="{{ page.imagesPath }}1.jpg" srcset="{{ page.imagesPath }}1.jpg 1x, {{ page.imagesPath }}1@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
-</figure>
-
 My name is Adam Haigh, I’m from Brockton, Massachusetts and this is my 1991 Volkswagen Golf.
 <br/><br/>
 I was at a local car meet and someone had mentioned they were selling an older Volkswagen, and it sparked my interest. I didn’t really knew much about cars at that time, but I decided to buy it anyways.

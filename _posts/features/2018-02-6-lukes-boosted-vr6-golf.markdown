@@ -12,10 +12,6 @@ authorRole: "Owner"
 type: "feature"
 ---
 
-<figure>
-  <img src="/images/posts/lukes-boosted-vr6-golf/1.jpg" srcset="/images/posts/lukes-boosted-vr6-golf/1.jpg 1x, /images/posts/lukes-boosted-vr6-golf/1@2x.jpg 2x" alt="Luke’s Boosted VR6 Golf">
-</figure>
-
 I’m Luke Rocknak and I’m from Milford, NH. My car is a 1988 Volkswagen Gti VRT aka Gwen.
 <br/><br/>
 It had started with me basically stalking this car on vwvortex back in September/October of 2012. I've always wanted a black 3 door Mk2 with big bumpers, I love the boxy body style. I ended up going down to Amesbury, MA in the beginning of December of 2012 to finally buy it. It was all original with a 16v motor and some extra parts. Ran like a top when I picked it up and stayed that way for 2 years then I wanted to start doing some motor modifications in December of 2014.
