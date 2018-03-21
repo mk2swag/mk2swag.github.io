@@ -52,7 +52,7 @@ layout: default
         <p class="body-small">Click to subscribe</p>
       </div>
 
-      <div class="latest-posts">
+      <!-- <div class="latest-posts">
         <div class="container-large">
           <ul class="latest-posts-list">
             {% for post in site.posts limit:3 %}
@@ -67,11 +67,13 @@ layout: default
                 {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
 
                 <div class="post-info">
-                  <a href="{{ post.url | relative_url }}" class="post-link">
                   <h3 class="post-title">{{ post.title | escape }}</h3>
 
-                  <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 15 }}</p>
-                  </a>
+                  <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 21 }}</p>
+
+                  <div class="post-details">
+                    <a class="body-small" href="{{ post.url | relative_url }}" class="post-image">Read More</a>
+                  </div>
                 </div>
               </a>
             </li>
@@ -80,13 +82,12 @@ layout: default
             {% endfor %}
           </ul>
         </div>
-      </div>
+      </div> -->
 
       <div class="posts-list">
         <div class="container">
-          <h5>More <br/>Features</h5>
           <ul>
-          {% for post in site.posts offset:3 %}
+          {% for post in site.posts %}
           {% if post.type == 'feature' %}
           <li>
             <a href="{{ post.url | relative_url }}" class="post-image">
